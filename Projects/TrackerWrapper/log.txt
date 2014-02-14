@@ -1,0 +1,4 @@
+Loaded camera file
+Registered MarkerDetectorSimpleId
+Registered MarkerDetectorFrameSimpleIDFixed
+Registered PoseEstimatorRPP

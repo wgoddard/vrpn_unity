@@ -9,3 +9,6 @@
 *.opensdf
 .DS_Store
 *.pdb
+/Plugins/VRPNPlugin/Win32/*.suo
+/Projects/TrackerWrapper/Library
+/Projects/TrackerWrapper/Temp
