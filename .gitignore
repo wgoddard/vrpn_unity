@@ -9,3 +9,7 @@
 *.opensdf
 .DS_Store
 *.pdb
+/Plugins/VRPNPlugin/Win32/VRPNPlugin.v12.suo
+/Plugins/VRPNPlugin/Win32/*.suo
+/test-client/test-client/Debug
+/test-client/test-client/Release

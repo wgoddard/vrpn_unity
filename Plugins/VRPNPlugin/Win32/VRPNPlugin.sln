@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vrpn_server", "..\..\..\vrp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quatlib", "..\..\..\vrpn\quat\quatlib.vcxproj", "{0C16E98C-A372-4E58-990D-EE276B32644E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-client", "..\..\..\test-client\test-client\test-client.vcxproj", "{3BEAD807-AE7E-4BEA-9474-D5C9E077B251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,6 +40,10 @@ Global
 		{0C16E98C-A372-4E58-990D-EE276B32644E}.Debug|Win32.Build.0 = Debug|Win32
 		{0C16E98C-A372-4E58-990D-EE276B32644E}.Release|Win32.ActiveCfg = Release|Win32
 		{0C16E98C-A372-4E58-990D-EE276B32644E}.Release|Win32.Build.0 = Release|Win32
+		{3BEAD807-AE7E-4BEA-9474-D5C9E077B251}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BEAD807-AE7E-4BEA-9474-D5C9E077B251}.Debug|Win32.Build.0 = Debug|Win32
+		{3BEAD807-AE7E-4BEA-9474-D5C9E077B251}.Release|Win32.ActiveCfg = Release|Win32
+		{3BEAD807-AE7E-4BEA-9474-D5C9E077B251}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
