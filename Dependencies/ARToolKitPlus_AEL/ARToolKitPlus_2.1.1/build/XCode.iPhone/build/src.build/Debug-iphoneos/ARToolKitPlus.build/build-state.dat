@@ -1,0 +1,1021 @@
+TARToolKitPlus
+v7
+r0
+t316451578.293688
+cCheck dependencies
+
+N/../../lib/libARToolKitPlus.a
+t1294718328
+s815576
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/assert.h
+c000000004CB3E4B80000000000000DCB
+t1286857912
+s3531
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/memory.h
+c000000004CB3E4B80000000000000765
+t1286857912
+s1893
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/timeb.h
+c000000004CBFACD900000000000010C2
+t1287630041
+s4290
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004C5A568700000000000010DD
+t1280988807
+s4317
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp
+c000000004446FFCA0000000000000C0D
+t1145503690
+s3085
+i<ARToolKitPlus/TrackerSingleMarkerImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp
+c000000004D2771EF00000000000009A8
+t1294430703
+s2472
+i<ARToolKitPlus/MemoryManager.h>
+i<stdlib.h>
+i<malloc.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp
+c00000000445796E60000000000001395
+t1146590950
+s5013
+i<math.h>
+i<assert.h>
+i<stdio.h>
+i"FixedPoint.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp
+c0000000043F0C94E0000000000001792
+t1139853646
+s6034
+i<ARToolKitPlus/extra/Profiler.h>
+i<stdio.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp
+c000000004446FFCA000000000000131F
+t1145503690
+s4895
+i"librpp.h"
+i"rpp.h"
+i"rpp_vecmat.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp
+c000000004446FFCA00000000000054EA
+t1145503690
+s21738
+i<vector>
+i"assert.h"
+i"rpp.h"
+i"rpp_const.h"
+i"rpp_vecmat.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp
+c000000004446FFCA000000000000279D
+t1145503690
+s10141
+i"math.h"
+i"stdio.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp
+c000000004446FFCA000000000000238F
+t1145503690
+s9103
+i<math.h>
+i<assert.h>
+i"rpp_types.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp
+c000000004446FFCA000000000000586C
+t1145503690
+s22636
+i"rpp_vecmat.h"
+i"math.h"
+i"assert.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/ARToolKitPlus.LinkFileList
+c000000004D2BBB2200000000000004BE
+t1294711586
+s1214
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/DLL.o
+t1294711587
+s225876
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o
+t1294711588
+s1872
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/MemoryManager.o
+t1294711586
+s5028
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/Profiler.o
+t1294711588
+s9164
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a
+t1294711588
+s870488
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/librpp.o
+t1294711588
+s58252
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp.o
+t1294711587
+s274524
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_quintic.o
+t1294711587
+s14192
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_svd.o
+t1294711588
+s28668
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_vecmat.o
+t1294711588
+s202272
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/ARToolKitPlus.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/DLL.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/MemoryManager.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/Profiler.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a
+t1294711590
+s815576
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/librpp.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_quintic.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_svd.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_vecmat.o
+t2
+s0
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/ARToolKitPlus.h
+c000000004D2771EF0000000000000EB2
+t1294430703
+s3762
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Camera.h
+c0000000044C6799A0000000000000A91
+t1153857946
+s2705
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraAdvImpl.h
+c000000004446FFCA0000000000000A45
+t1145503690
+s2629
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraFactory.h
+c000000004446FFCA00000000000007BD
+t1145503690
+s1981
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraImpl.h
+c000000004446FFCA0000000000000922
+t1145503690
+s2338
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Logger.h
+c000000004446FFCA0000000000000BCB
+t1145503690
+s3019
+i<stdio.h>
+i<stdarg.h>
+i<string.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/MemoryManager.h
+c00000000445796E60000000000000E46
+t1146590950
+s3654
+i"ARToolKitPlus.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Tracker.h
+c000000004D2771EF0000000000002E7B
+t1294430703
+s11899
+i<ARToolKitPlus/ARToolKitPlus.h>
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/arMulti.h>
+i<ARToolKitPlus/Logger.h>
+i<ARToolKitPlus/extra/Profiler.h>
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerImpl.h
+c000000004D2771EF00000000000064EB
+t1294430703
+s25835
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/arMulti.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/MemoryManager.h>
+i<ARToolKitPlus/Camera.h>
+i<ARToolKitPlus/CameraFactory.h>
+i<ARToolKitPlus/extra/BCH.h>
+i"../../src/extra/FixedPoint.h"
+i"../../src/core/arBitFieldPattern.cxx"
+i"../../src/core/arDetectMarker.cxx"
+i"../../src/core/arDetectMarker2.cxx"
+i"../../src/core/arGetCode.cxx"
+i"../../src/core/arGetMarkerInfo.cxx"
+i"../../src/core/arGetTransMat.cxx"
+i"../../src/core/arGetTransMat2.cxx"
+i"../../src/core/arGetTransMat3.cxx"
+i"../../src/core/rppGetTransMat.cxx"
+i"../../src/core/arGetTransMatCont.cxx"
+i"../../src/core/arLabeling.cxx"
+i"../../src/core/arMultiActivate.cxx"
+i"../../src/core/arMultiGetTransMat.cxx"
+i"../../src/core/rppMultiGetTransMat.cxx"
+i"../../src/core/arMultiReadConfigFile.cxx"
+i"../../src/core/arUtil.cxx"
+i"../../src/core/matrix.cxx"
+i"../../src/core/mPCA.cxx"
+i"../../src/core/paramDecomp.cxx"
+i"../../src/core/paramDistortion.cxx"
+i"../../src/core/byteSwap.cxx"
+i"../../src/core/paramFile.cxx"
+i"../../src/core/vector.cxx"
+i"../../src/CameraImpl.cxx"
+i"../../src/CameraAdvImpl.cxx"
+i"../../src/CameraFactory.cxx"
+i"../../src/extra/BCH.cxx"
+i"../../src/TrackerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarker.h
+c00000000445796E60000000000000F94
+t1146590950
+s3988
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarkerImpl.h
+c000000004D2771EF0000000000002AED
+t1294430703
+s10989
+i<ARToolKitPlus/TrackerSingleMarker.h>
+i<ARToolKitPlus/TrackerImpl.h>
+i<ARToolKitPlus/Logger.h>
+i"../src/TrackerSingleMarkerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/ar.h
+c000000004446FFCA0000000000000B28
+t1145503690
+s2856
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/arBitFieldPattern.h
+c000000004446FFCA0000000000000DD6
+t1145503690
+s3542
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/arMulti.h
+c000000004446FFCA00000000000009CD
+t1145503690
+s2509
+i<stdio.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/ar.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/byteSwap.h
+c000000004446FFCA00000000000007DB
+t1145503690
+s2011
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/config.h
+c000000004446FFCA0000000000001AC6
+t1145503690
+s6854
+i<config.h>
+i<windows.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/BCH.h
+c000000004446FFCA0000000000001019
+t1145503690
+s4121
+i<stdio.h>
+i<stdlib.h>
+i<vector>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/Profiler.h
+c000000004446FFCA0000000000000F50
+t1145503690
+s3920
+i<windows.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/rpp.h
+c000000004446FFCA00000000000008D4
+t1145503690
+s2260
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/matrix.h
+c000000004446FFCA0000000000000C95
+t1145503690
+s3221
+i<math.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/vector.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/param.h
+c000000004446FFCA0000000000000977
+t1145503690
+s2423
+i<ARToolKitPlus/config.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/vector.h
+c000000004446FFCA0000000000000910
+t1145503690
+s2320
+i<math.h>
+i<ARToolKitPlus/config.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraAdvImpl.cxx
+c0000000044C6799A000000000000185E
+t1153857946
+s6238
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/CameraAdvImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraFactory.cxx
+c000000004446FFCA00000000000008D7
+t1145503690
+s2263
+i<ARToolKitPlus/CameraFactory.h>
+i<ARToolKitPlus/CameraImpl.h>
+i<ARToolKitPlus/CameraAdvImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraImpl.cxx
+c0000000044C6799A0000000000001456
+t1153857946
+s5206
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/CameraImpl.h>
+i<ARToolKitPlus/byteSwap.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerImpl.cxx
+c0000000044C6799A0000000000005058
+t1153857946
+s20568
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerSingleMarkerImpl.cxx
+c0000000044C6799A000000000000199A
+t1153857946
+s6554
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arBitFieldPattern.cxx
+c000000004D2771EF0000000000003F5E
+t1294430703
+s16222
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/arBitFieldPattern.h>
+i<assert.h>
+i<memory.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arDetectMarker.cxx
+c000000004446FFCA000000000000223E
+t1145503690
+s8766
+i<ARToolKitPlus/Tracker.h>
+i<stdio.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arDetectMarker2.cxx
+c000000004D2771EF0000000000003243
+t1294430703
+s12867
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetCode.cxx
+c000000004D2771EF0000000000007C16
+t1294430703
+s31766
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetMarkerInfo.cxx
+c000000004446FFCA0000000000000B93
+t1145503690
+s2963
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat.cxx
+c000000004446FFCA0000000000002E2C
+t1145503690
+s11820
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat2.cxx
+c000000004446FFCA0000000000003BE4
+t1145503690
+s15332
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat3.cxx
+c000000004446FFCA00000000000070BE
+t1145503690
+s28862
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMatCont.cxx
+c000000004446FFCA00000000000010C5
+t1145503690
+s4293
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arLabeling.cxx
+c000000004446FFCA0000000000004511
+t1145503690
+s17681
+i<stdlib.h>
+i<stdio.h>
+i<ARToolKitPlus/Tracker.h>
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arLabelingImpl.hxx
+c000000004446FFCA0000000000003A60
+t1145503690
+s14944
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiActivate.cxx
+c000000004446FFCA0000000000000AF4
+t1145503690
+s2804
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/arMulti.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiGetTransMat.cxx
+c000000004446FFCA0000000000003757
+t1145503690
+s14167
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiReadConfigFile.cxx
+c000000004446FFCA00000000000017AE
+t1145503690
+s6062
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arUtil.cxx
+c000000004446FFCA00000000000015F5
+t1145503690
+s5621
+i<stdio.h>
+i<math.h>
+i<sys/timeb.h>
+i<windows.h>
+i<sys/time.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/byteSwap.cxx
+c000000004446FFCA0000000000000BEF
+t1145503690
+s3055
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/mPCA.cxx
+c000000004446FFCA0000000000003112
+t1145503690
+s12562
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/matrix.cxx
+c000000004446FFCA000000000000276E
+t1145503690
+s10094
+i<stdio.h>
+i<math.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramDecomp.cxx
+c000000004446FFCA0000000000001444
+t1145503690
+s5188
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramDistortion.cxx
+c0000000044C6799A00000000000014DD
+t1153857946
+s5341
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Camera.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramFile.cxx
+c000000004446FFCA000000000000157B
+t1145503690
+s5499
+i<stdio.h>
+i<stdarg.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/rppGetTransMat.cxx
+c000000004446FFCA000000000000109E
+t1145503690
+s4254
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/extra/rpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/rppMultiGetTransMat.cxx
+c000000004446FFCA000000000000140C
+t1145503690
+s5132
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<map>
+i<deque>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/extra/rpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/vector.cxx
+c000000004446FFCA000000000000155C
+t1145503690
+s5468
+i<stdlib.h>
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/vector.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/extra/BCH.cxx
+c000000004446FFCA00000000000041FB
+t1145503690
+s16891
+i<ARToolKitPlus/extra/BCH.h>
+i"assert.h"
+i<vector>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/extra/FixedPoint.h
+c00000000445796E6000000000000159F
+t1146590950
+s5535
+i<gpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/librpp/librpp.h
+c000000004446FFCA0000000000000F37
+t1145503690
+s3895
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/librpp/rpp.h
+c000000004446FFCA0000000000000EFE
+t1145503690
+s3838
+i"rpp_types.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/librpp/rpp_const.h
+c000000004446FFCA00000000000009F9
+t1145503690
+s2553
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/librpp/rpp_types.h
+c000000004446FFCA0000000000000C71
+t1145503690
+s3185
+i<vector>
+i"rpp_const.h"
+i"../math/artkpFloat_float.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/librpp/rpp_vecmat.h
+c000000004446FFCA0000000000001A3D
+t1145503690
+s6717
+i"rpp_const.h"
+i"rpp_types.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/math/artkpFloat_float.h
+c000000004446FFCA000000000000351F
+t1145503690
+s13599
+i<math.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316451578#316451578#0(0"0(0#1#0"8675778336#0"0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/DLL.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404386.867880
+e316404387.877445
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/DLL.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp316404386#316404387#0(0"0(0#0#69"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp8660750048#1743"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/DLL.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404388.469400
+e316404388.514670
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp316404388#316404388#0(0"0(0#0#82"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp8660242304#1763"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/MemoryManager.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404386.866971
+e316404386.920388
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/MemoryManager.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp316404386#316404386#0(0"0(0#0#79"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp8614976928#1763"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/MemoryManager.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/Profiler.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404388.430866
+e316404388.469304
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/Profiler.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp316404388#316404388#0(0"0(0#0#80"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp8653056096#1759"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/Profiler.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/librpp.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404388.185276
+e316404388.430659
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/librpp.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp316404388#316404388#0(0"0(0#0#79"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp8658225664#1756"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/librpp.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404386.920481
+e316404387.691102
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp316404386#316404387#0(0"0(0#0#76"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp8657839040#1750"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_quintic.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404387.691200
+e316404387.776460
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_quintic.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp316404387#316404387#0(0"0(0#0#84"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp8655638976#1766"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_quintic.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_svd.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404387.877536
+e316404388.185189
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_svd.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp316404387#316404388#0(0"0(0#0#80"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp8660377216#1758"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_svd.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_vecmat.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316404387.776553
+e316404388.617915
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_vecmat.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp316404387#316404388#0(0"0(0#0#83"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp8654168800#1764"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv6 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/rpp_vecmat.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/DLL.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411126.862282
+e316411127.691158
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/DLL.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp316411126#316411127#0(0"0(0#0#69"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp8676009376#1743"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/DLL.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/DLL.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411128.172014
+e316411128.228155
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp316411128#316411128#0(0"0(0#0#82"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp8672765632#1763"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/FixedPoint.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/MemoryManager.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411126.861359
+e316411126.920710
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/MemoryManager.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp316411126#316411126#0(0"0(0#0#79"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp8677121952#1763"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/MemoryManager.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/MemoryManager.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/Profiler.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411128.126556
+e316411128.171930
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/Profiler.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp316411128#316411128#0(0"0(0#0#80"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp8674731424#1759"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/extra/Profiler.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/Profiler.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/librpp.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411127.913974
+e316411128.126459
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/librpp.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp316411127#316411128#0(0"0(0#0#79"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp8677753504#1756"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/librpp.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/librpp.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411126.920801
+e316411127.571685
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp316411126#316411127#0(0"0(0#0#76"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp8674732352#1750"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_quintic.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411127.571774
+e316411127.658939
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_quintic.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp316411127#316411127#0(0"0(0#0#84"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp8673196544#1766"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_quintic.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_quintic.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_svd.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411127.691243
+e316411127.913884
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_svd.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp316411127#316411127#0(0"0(0#0#80"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp8671789312#1758"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_svd.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_svd.o0#
+
+CCompileC build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_vecmat.o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411127.659030
+e316411128.200755
+r1
+xCompileC
+xbuild/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_vecmat.o
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp316411127#316411128#0(0"0(0#0#83"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp8672441056#1764"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-generated-files.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-own-target-headers.hmap -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-all-target-headers.hmap -iquote /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/ARToolKitPlus-project-headers.hmap -F/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/include -I../../include -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources/armv7 -I/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/DerivedSources -c /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/../../src/librpp/rpp_vecmat.cpp -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/rpp_vecmat.o0#
+
+CCreateUniversalBinary /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a normal "armv6 armv7"
+s316404390.185220
+e316404390.358851
+r1
+xCreateUniversalBinary
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a
+xnormal
+xarmv6 armv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: for architecture: armv6 file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a(FixedPoint.o) has no symbols
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: for architecture: armv7 file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a(FixedPoint.o) has no symbols
+lSLF07#2@82"CreateUniversalBinary build/Debug-iphoneos/libARToolKitPlus.a normal "armv6 armv7"316404390#316404390#0(536"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: for architecture: armv6 file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a(FixedPoint.o) has no symbols/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: for architecture: armv7 file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a(FixedPoint.o) has no symbols0(0#0#63"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/armv6 armv78656928736#641"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a0#
+
+CLibtool /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a normal armv6
+s316123567.902508
+e316123567.921737
+r1
+xLibtool
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o has no symbols
+lSLF07#2@60"Libtool build/Debug-iphoneos/libARToolKitPlus.a normal armv6316123567#316123567#0(224"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o has no symbols0(0#0#0"8609536864#732"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -filelist /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/ARToolKitPlus.LinkFileList -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a0#
+
+CLibtool /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a normal armv7
+s316411128.228246
+e316411128.272909
+r1
+xLibtool
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o has no symbols
+lSLF07#2@60"Libtool build/Debug-iphoneos/libARToolKitPlus.a normal armv7316411128#316411128#0(224"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o has no symbols0(0#0#0"8671960704#732"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -filelist /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/ARToolKitPlus.LinkFileList -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a0#
+
+CLibtool /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a normal armv6
+s316404388.618003
+e316404388.638729
+r1
+xLibtool
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o has no symbols
+lSLF07#2@111"Libtool build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a normal armv6316404388#316404388#0(224"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/FixedPoint.o has no symbols0(0#0#0"8651610208#783"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -filelist /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/ARToolKitPlus.LinkFileList -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv6/libARToolKitPlus.a0#
+
+CLibtool /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a normal armv7
+s316404390.091399
+e316404390.185116
+r1
+xLibtool
+x/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o has no symbols
+lSLF07#2@111"Libtool build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a normal armv7316404390#316404390#0(224"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/FixedPoint.o has no symbols0(0#0#0"8663649088#783"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos -filelist /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/ARToolKitPlus.LinkFileList -o /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/src.build/Debug-iphoneos/ARToolKitPlus.build/Objects-normal/armv7/libARToolKitPlus.a0#
+
+CPBXCp /../../lib/libARToolKitPlus.a build/Debug-iphoneos/libARToolKitPlus.a
+s316411128.273000
+e316411128.343018
+r1
+xPBXCp
+x/../../lib/libARToolKitPlus.a
+xbuild/Debug-iphoneos/libARToolKitPlus.a
+lSLF07#2@44"Copy build/Debug-iphoneos/libARToolKitPlus.a316411128#316411128#0(0"0(0#0#91"/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a8653977088#448"    cd /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a /../../lib0#
+

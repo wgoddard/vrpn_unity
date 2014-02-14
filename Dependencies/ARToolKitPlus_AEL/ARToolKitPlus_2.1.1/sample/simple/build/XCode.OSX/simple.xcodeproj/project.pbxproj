@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263FB33552F16E1CCD130FF9 /* libARToolKitPlus.dylib in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 301A71456D762686937A8896 /* libARToolKitPlus.dylib */; };
+		F52A2A4E10CFFBDD000FD3B6 /* simple in Project Copy */ = {isa = PBXBuildFile; fileRef = F52A2A4B10CFFBDD000FD3B6 /* simple */; };
+		FD1638E377D97C82BDB438FB /* main.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C68A81EFFF79B6CA22AC /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../../../../bin;
+			dstSubfolderSpec = 16;
+			files = (
+				F52A2A4E10CFFBDD000FD3B6 /* simple in Project Copy */,
+			);
+			name = "Project Copy";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		301A71456D762686937A8896 /* libARToolKitPlus.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libARToolKitPlus.dylib; path = ../../../../lib/libARToolKitPlus.dylib; sourceTree = "<group>"; };
+		7EC3C68A81EFFF79B6CA22AC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../src/main.cpp; sourceTree = "<group>"; };
+		F52A2A4B10CFFBDD000FD3B6 /* simple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = simple; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263FB33552F16E1CCD130FF9 /* libARToolKitPlus.dylib in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* simple */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				F52A2A4C10CFFBDD000FD3B6 /* Products */,
+			);
+			name = simple;
+			sourceTree = "<group>";
+		};
+		06674E1DE8D3EB6E763DFFDA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3C68A81EFFF79B6CA22AC /* main.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				301A71456D762686937A8896 /* libARToolKitPlus.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		F52A2A4C10CFFBDD000FD3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52A2A4B10CFFBDD000FD3B6 /* simple */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				06674E1DE8D3EB6E763DFFDA /* src */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F513452E07FA988B8F2F564C /* simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52A2A7310CFFC24000FD3B6 /* Build configuration list for PBXNativeTarget "simple" */;
+			buildPhases = (
+				F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simple;
+			productInstallPath = ./../../../../bin/;
+			productName = simple;
+			productReference = F52A2A4B10CFFBDD000FD3B6 /* simple */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "simple" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* simple */;
+			productRefGroup = F52A2A4C10CFFBDD000FD3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = ./;
+			targets = (
+				F513452E07FA988B8F2F564C /* simple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1638E377D97C82BDB438FB /* main.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DB1DD96F65B1BF1FFC506E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		95E1EB2E5DDD587BE5B3E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+			};
+			name = Release;
+		};
+		F52A2A6810CFFC0B000FD3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = ../../../..sample/simple;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.0.2;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					../../../../include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = ../../../..sample/simple/../../bin/;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../../lib,
+					../../../../lib,
+					../../../..lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = build/linux/debug/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-mtune=pentium4",
+					"-march=pentium4",
+					"-msse2",
+					"-msse",
+					"-g",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L../../../../lib",
+					"-L../../../../lib",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Debug;
+		};
+		F52A2A6910CFFC0B000FD3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = ../../../..sample/simple;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.0.2;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = ../../../..sample/simple/../../bin/;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../../lib,
+					../../../../lib,
+					../../../..lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = build/linux/debug/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-mtune=pentium4",
+					"-march=pentium4",
+					"-msse2",
+					"-msse",
+					"-g",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L../../../../lib",
+					"-L../../../../lib",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Release;
+		};
+		F52A2A6A10CFFC0B000FD3B6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = ../../../..sample/simple;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.0.2;
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = ../../../..sample/simple/../../bin/;
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../../lib,
+					../../../../lib,
+					../../../..lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = build/linux/debug/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-mtune=pentium4",
+					"-march=pentium4",
+					"-msse2",
+					"-msse",
+					"-g",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L../../../../lib",
+					"-L../../../../lib",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1DD96F65B1BF1FFC506E0 /* Debug */,
+				95E1EB2E5DDD587BE5B3E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52A2A7310CFFC24000FD3B6 /* Build configuration list for PBXNativeTarget "simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52A2A6810CFFC0B000FD3B6 /* Debug */,
+				F52A2A6910CFFC0B000FD3B6 /* Release */,
+				F52A2A6A10CFFC0B000FD3B6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

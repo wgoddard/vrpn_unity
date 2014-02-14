@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		F50936680F325684002AF0B3 /* VRPNWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50936670F325684002AF0B3 /* VRPNWrapper.cpp */; };
+		F5684BA50F4F12D900EF966B /* libquat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5684BA40F4F12D900EF966B /* libquat.a */; };
+		F5684BAC0F4F131600EF966B /* libvrpnserver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5684BAB0F4F131600EF966B /* libvrpnserver.a */; };
+		F5AC2E5D0F3260D1000A810F /* libMotionNodeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E5C0F3260D1000A810F /* libMotionNodeSDK.a */; };
+		F5AC2E5F0F326110000A810F /* libboost_thread-mt-1_34_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E5E0F326110000A810F /* libboost_thread-mt-1_34_1.a */; };
+		F5AC2E970F326F7C000A810F /* vrpn_Generic_server_object.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E960F326F7C000A810F /* vrpn_Generic_server_object.o */; };
+		F5AC2EA50F3270DE000A810F /* buzzForceField.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E9C0F3270DE000A810F /* buzzForceField.o */; };
+		F5AC2EA60F3270DE000A810F /* constraint.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E9D0F3270DE000A810F /* constraint.o */; };
+		F5AC2EA70F3270DE000A810F /* forcefield.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E9E0F3270DE000A810F /* forcefield.o */; };
+		F5AC2EA80F3270DE000A810F /* InstantBuzzEffect.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2E9F0F3270DE000A810F /* InstantBuzzEffect.o */; };
+		F5AC2EA90F3270DE000A810F /* plane.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2EA00F3270DE000A810F /* plane.o */; };
+		F5AC2EAA0F3270DE000A810F /* texture_plane.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2EA10F3270DE000A810F /* texture_plane.o */; };
+		F5AC2EAB0F3270DE000A810F /* trimesh.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2EA20F3270DE000A810F /* trimesh.o */; };
+		F5AC2EAC0F3270DE000A810F /* vrpn_Phantom.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2EA30F3270DE000A810F /* vrpn_Phantom.o */; };
+		F5AC2EAD0F3270DE000A810F /* vrpn.o in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2EA40F3270DE000A810F /* vrpn.o */; };
+		F5AC2EB30F3271AD000A810F /* libvrpnatmel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AC2EB20F3271AD000A810F /* libvrpnatmel.a */; };
+		F5C3BCD30FDD8F4C00115886 /* VRPNTrackerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C3BCD20FDD8F4C00115886 /* VRPNTrackerInstance.cpp */; };
+		F5C3BD330FDD94F700115886 /* VRPNAnalogInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C3BD320FDD94F700115886 /* VRPNAnalogInstance.cpp */; };
+		F5C3BD3E0FDD95D000115886 /* VRPNButtonInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C3BD3D0FDD95D000115886 /* VRPNButtonInstance.cpp */; };
+		F5E03D380F4CC2AF000BE041 /* libgps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E03D370F4CC2AF000BE041 /* libgps.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B68BC710AFFC7E0001701D3 /* VRPNWrapper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPNWrapper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50936050F311297002AF0B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50936670F325684002AF0B3 /* VRPNWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VRPNWrapper.cpp; path = ../VRPNWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		F5684BA40F4F12D900EF966B /* libquat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libquat.a; path = ../../../vrpn_07_19_ael/quat/universal_macosx/libquat.a; sourceTree = SOURCE_ROOT; };
+		F5684BAB0F4F131600EF966B /* libvrpnserver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvrpnserver.a; path = ../../../vrpn_07_19_ael/vrpn/universal_macosx/libvrpnserver.a; sourceTree = SOURCE_ROOT; };
+		F5AC2E5C0F3260D1000A810F /* libMotionNodeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMotionNodeSDK.a; path = ../../../MotionNode/sdk/cpp/build/libMotionNodeSDK.a; sourceTree = SOURCE_ROOT; };
+		F5AC2E5E0F326110000A810F /* libboost_thread-mt-1_34_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libboost_thread-mt-1_34_1.a"; path = "/usr/local/lib/libboost_thread-mt-1_34_1.a"; sourceTree = "<absolute>"; };
+		F5AC2E960F326F7C000A810F /* vrpn_Generic_server_object.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = vrpn_Generic_server_object.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/vrpn_Generic_server_object.o; sourceTree = SOURCE_ROOT; };
+		F5AC2E9C0F3270DE000A810F /* buzzForceField.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = buzzForceField.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/buzzForceField.o; sourceTree = SOURCE_ROOT; };
+		F5AC2E9D0F3270DE000A810F /* constraint.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = constraint.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/constraint.o; sourceTree = SOURCE_ROOT; };
+		F5AC2E9E0F3270DE000A810F /* forcefield.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = forcefield.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/forcefield.o; sourceTree = SOURCE_ROOT; };
+		F5AC2E9F0F3270DE000A810F /* InstantBuzzEffect.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = InstantBuzzEffect.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/InstantBuzzEffect.o; sourceTree = SOURCE_ROOT; };
+		F5AC2EA00F3270DE000A810F /* plane.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = plane.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/plane.o; sourceTree = SOURCE_ROOT; };
+		F5AC2EA10F3270DE000A810F /* texture_plane.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = texture_plane.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/texture_plane.o; sourceTree = SOURCE_ROOT; };
+		F5AC2EA20F3270DE000A810F /* trimesh.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = trimesh.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/trimesh.o; sourceTree = SOURCE_ROOT; };
+		F5AC2EA30F3270DE000A810F /* vrpn_Phantom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = vrpn_Phantom.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/vrpn_Phantom.o; sourceTree = SOURCE_ROOT; };
+		F5AC2EA40F3270DE000A810F /* vrpn.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = vrpn.o; path = ../../../vrpn_07_19_ael/vrpn/server_src/universal_macosx/vrpn.o; sourceTree = SOURCE_ROOT; };
+		F5AC2EB20F3271AD000A810F /* libvrpnatmel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvrpnatmel.a; path = ../../../vrpn_07_19_ael/vrpn/universal_macosx/libvrpnatmel.a; sourceTree = SOURCE_ROOT; };
+		F5C3BCD10FDD8F4C00115886 /* VRPNTrackerInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRPNTrackerInstance.h; path = ../VRPNTrackerInstance.h; sourceTree = "<group>"; };
+		F5C3BCD20FDD8F4C00115886 /* VRPNTrackerInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VRPNTrackerInstance.cpp; path = ../VRPNTrackerInstance.cpp; sourceTree = "<group>"; };
+		F5C3BD310FDD94F700115886 /* VRPNAnalogInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRPNAnalogInstance.h; path = ../VRPNAnalogInstance.h; sourceTree = "<group>"; };
+		F5C3BD320FDD94F700115886 /* VRPNAnalogInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VRPNAnalogInstance.cpp; path = ../VRPNAnalogInstance.cpp; sourceTree = "<group>"; };
+		F5C3BD3C0FDD95D000115886 /* VRPNButtonInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRPNButtonInstance.h; path = ../VRPNButtonInstance.h; sourceTree = "<group>"; };
+		F5C3BD3D0FDD95D000115886 /* VRPNButtonInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VRPNButtonInstance.cpp; path = ../VRPNButtonInstance.cpp; sourceTree = "<group>"; };
+		F5E03D370F4CC2AF000BE041 /* libgps.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgps.a; path = ../../../vrpn_07_19_ael/vrpn/universal_macosx/libgps.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC2E5D0F3260D1000A810F /* libMotionNodeSDK.a in Frameworks */,
+				F5AC2E5F0F326110000A810F /* libboost_thread-mt-1_34_1.a in Frameworks */,
+				F5AC2E970F326F7C000A810F /* vrpn_Generic_server_object.o in Frameworks */,
+				F5AC2EA50F3270DE000A810F /* buzzForceField.o in Frameworks */,
+				F5AC2EA60F3270DE000A810F /* constraint.o in Frameworks */,
+				F5AC2EA70F3270DE000A810F /* forcefield.o in Frameworks */,
+				F5AC2EA80F3270DE000A810F /* InstantBuzzEffect.o in Frameworks */,
+				F5AC2EA90F3270DE000A810F /* plane.o in Frameworks */,
+				F5AC2EAA0F3270DE000A810F /* texture_plane.o in Frameworks */,
+				F5AC2EAB0F3270DE000A810F /* trimesh.o in Frameworks */,
+				F5AC2EAC0F3270DE000A810F /* vrpn_Phantom.o in Frameworks */,
+				F5AC2EAD0F3270DE000A810F /* vrpn.o in Frameworks */,
+				F5AC2EB30F3271AD000A810F /* libvrpnatmel.a in Frameworks */,
+				F5E03D380F4CC2AF000BE041 /* libgps.a in Frameworks */,
+				F5684BA50F4F12D900EF966B /* libquat.a in Frameworks */,
+				F5684BAC0F4F131600EF966B /* libvrpnserver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Unity Midi Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = "Unity Midi Plugin";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5684BAB0F4F131600EF966B /* libvrpnserver.a */,
+				F5684BA40F4F12D900EF966B /* libquat.a */,
+				F5E03D370F4CC2AF000BE041 /* libgps.a */,
+				F5AC2EB20F3271AD000A810F /* libvrpnatmel.a */,
+				F5AC2E9C0F3270DE000A810F /* buzzForceField.o */,
+				F5AC2E9D0F3270DE000A810F /* constraint.o */,
+				F5AC2E9E0F3270DE000A810F /* forcefield.o */,
+				F5AC2E9F0F3270DE000A810F /* InstantBuzzEffect.o */,
+				F5AC2EA00F3270DE000A810F /* plane.o */,
+				F5AC2EA10F3270DE000A810F /* texture_plane.o */,
+				F5AC2EA20F3270DE000A810F /* trimesh.o */,
+				F5AC2EA30F3270DE000A810F /* vrpn_Phantom.o */,
+				F5AC2EA40F3270DE000A810F /* vrpn.o */,
+				F5AC2E960F326F7C000A810F /* vrpn_Generic_server_object.o */,
+				F5AC2E5E0F326110000A810F /* libboost_thread-mt-1_34_1.a */,
+				F5AC2E5C0F3260D1000A810F /* libMotionNodeSDK.a */,
+				F50936050F311297002AF0B3 /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3BD3C0FDD95D000115886 /* VRPNButtonInstance.h */,
+				F5C3BD3D0FDD95D000115886 /* VRPNButtonInstance.cpp */,
+				F5C3BD310FDD94F700115886 /* VRPNAnalogInstance.h */,
+				F5C3BD320FDD94F700115886 /* VRPNAnalogInstance.cpp */,
+				F50936670F325684002AF0B3 /* VRPNWrapper.cpp */,
+				F5C3BCD10FDD8F4C00115886 /* VRPNTrackerInstance.h */,
+				F5C3BCD20FDD8F4C00115886 /* VRPNTrackerInstance.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B68BC710AFFC7E0001701D3 /* VRPNWrapper.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* VRPNWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DE532B0A6934F500AE507C /* Build configuration list for PBXNativeTarget "VRPNWrapper" */;
+			buildPhases = (
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPNWrapper;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Unity Midi Plugin";
+			productReference = 2B68BC710AFFC7E0001701D3 /* VRPNWrapper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D8DE532F0A6934F500AE507C /* Build configuration list for PBXProject "VRPNPlugin" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Unity Midi Plugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* VRPNWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50936680F325684002AF0B3 /* VRPNWrapper.cpp in Sources */,
+				F5C3BCD30FDD8F4C00115886 /* VRPNTrackerInstance.cpp in Sources */,
+				F5C3BD330FDD94F700115886 /* VRPNAnalogInstance.cpp in Sources */,
+				F5C3BD3E0FDD95D000115886 /* VRPNButtonInstance.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DE532C0A6934F500AE507C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"~/vrpn_07_19_ael/isense",
+					"~/VideoWrapper_0.2.6.1/Libraries/SharedMem/include",
+					"~/vrpn_07_19_ael/vrpn",
+					"~/vrpn_07_19_ael/vrpn/server_src",
+					"~/vrpn_07_19_ael/quat",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib/gcc/darwin/3.3,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../MotionNode/sdk/cpp/build\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(SRCROOT)/../../../vrpn_07_19/quat/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"$(SRCROOT)/../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"$(SRCROOT)/../../../vrpn_07_19_ael/quat/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"$(SRCROOT)/../../../vrpn_07_19_ael/vrpn/universal_macosx\"";
+				PRODUCT_NAME = VRPNWrapper;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		D8DE532D0A6934F500AE507C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					"~/vrpn_07_19_ael/isense",
+					"~/VideoWrapper_0.2.6.1/Libraries/SharedMem/include",
+					"~/vrpn_07_19_ael/vrpn",
+					"~/vrpn_07_19_ael/vrpn/server_src",
+					"~/vrpn_07_19_ael/quat",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib/gcc/darwin/3.3,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../vrpn_07_19_ael/quat/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../../vrpn_07_19_ael/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../MotionNode/sdk/cpp/build\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../vrpn_07_19/vrpn/universal_macosx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(SRCROOT)/../../../vrpn_07_19/quat/universal_macosx\"";
+				PRODUCT_NAME = VRPNWrapper;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		D8DE53300A6934F500AE507C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				BUNDLE_LOADER = "";
+				GCC_THREADSAFE_STATICS = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				USER_HEADER_SEARCH_PATHS = "~/vrpn_07_19_ael/quat ~/vrpn_07_19_ael/vrpn/server_src ~/vrpn_07_19_ael/vrpn";
+			};
+			name = Development;
+		};
+		D8DE53310A6934F500AE507C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DE532B0A6934F500AE507C /* Build configuration list for PBXNativeTarget "VRPNWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DE532C0A6934F500AE507C /* Development */,
+				D8DE532D0A6934F500AE507C /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		D8DE532F0A6934F500AE507C /* Build configuration list for PBXProject "VRPNPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DE53300A6934F500AE507C /* Development */,
+				D8DE53310A6934F500AE507C /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

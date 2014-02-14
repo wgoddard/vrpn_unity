@@ -1,0 +1,883 @@
+TTrackerWrapper
+v7
+r0
+t316371290.958111
+cCheck dependencies
+cProcessInfoPlistFile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileC build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/ARToolkitPlusPlugin.o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper normal i386
+cGenerateDSYMFile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle.dSYM /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper
+cTouch /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/memory.h
+c0000000047BA99300000000000000765
+t1203411248
+s1893
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/time.h
+c0000000047E883D20000000000001E18
+t1206420434
+s7704
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/timeb.h
+c0000000047E883D200000000000010C2
+t1206420434
+s4290
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EAF100000000000010DD
+t1242688241
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/memory.h
+c000000004BBD2CE90000000000000765
+t1270689001
+s1893
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004C2399480000000000001E17
+t1277401416
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/timeb.h
+c000000004C23994800000000000010C2
+t1277401416
+s4290
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/ARToolKitPlus.h
+c000000004D2771EF0000000000000EB2
+t1294430703
+s3762
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Camera.h
+c0000000044C6799A0000000000000A91
+t1153857946
+s2705
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraAdvImpl.h
+c000000004446FFCA0000000000000A45
+t1145503690
+s2629
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraFactory.h
+c000000004446FFCA00000000000007BD
+t1145503690
+s1981
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraImpl.h
+c000000004446FFCA0000000000000922
+t1145503690
+s2338
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Logger.h
+c000000004446FFCA0000000000000BCB
+t1145503690
+s3019
+i<stdio.h>
+i<stdarg.h>
+i<string.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/MemoryManager.h
+c00000000445796E60000000000000E46
+t1146590950
+s3654
+i"ARToolKitPlus.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Tracker.h
+c000000004D2771EF0000000000002E7B
+t1294430703
+s11899
+i<ARToolKitPlus/ARToolKitPlus.h>
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/arMulti.h>
+i<ARToolKitPlus/Logger.h>
+i<ARToolKitPlus/extra/Profiler.h>
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerImpl.h
+c000000004D2771EF00000000000064EB
+t1294430703
+s25835
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/arMulti.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/MemoryManager.h>
+i<ARToolKitPlus/Camera.h>
+i<ARToolKitPlus/CameraFactory.h>
+i<ARToolKitPlus/extra/BCH.h>
+i"../../src/extra/FixedPoint.h"
+i"../../src/core/arBitFieldPattern.cxx"
+i"../../src/core/arDetectMarker.cxx"
+i"../../src/core/arDetectMarker2.cxx"
+i"../../src/core/arGetCode.cxx"
+i"../../src/core/arGetMarkerInfo.cxx"
+i"../../src/core/arGetTransMat.cxx"
+i"../../src/core/arGetTransMat2.cxx"
+i"../../src/core/arGetTransMat3.cxx"
+i"../../src/core/rppGetTransMat.cxx"
+i"../../src/core/arGetTransMatCont.cxx"
+i"../../src/core/arLabeling.cxx"
+i"../../src/core/arMultiActivate.cxx"
+i"../../src/core/arMultiGetTransMat.cxx"
+i"../../src/core/rppMultiGetTransMat.cxx"
+i"../../src/core/arMultiReadConfigFile.cxx"
+i"../../src/core/arUtil.cxx"
+i"../../src/core/matrix.cxx"
+i"../../src/core/mPCA.cxx"
+i"../../src/core/paramDecomp.cxx"
+i"../../src/core/paramDistortion.cxx"
+i"../../src/core/byteSwap.cxx"
+i"../../src/core/paramFile.cxx"
+i"../../src/core/vector.cxx"
+i"../../src/CameraImpl.cxx"
+i"../../src/CameraAdvImpl.cxx"
+i"../../src/CameraFactory.cxx"
+i"../../src/extra/BCH.cxx"
+i"../../src/TrackerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerMultiMarker.h
+c00000000445796E60000000000001160
+t1146590950
+s4448
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerMultiMarkerImpl.h
+c000000004D2771EF0000000000002C6B
+t1294430703
+s11371
+i<ARToolKitPlus/TrackerMultiMarker.h>
+i<ARToolKitPlus/TrackerImpl.h>
+i<ARToolKitPlus/Logger.h>
+i"../src/TrackerMultiMarkerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarker.h
+c00000000445796E60000000000000F94
+t1146590950
+s3988
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarkerImpl.h
+c000000004D2771EF0000000000002AED
+t1294430703
+s10989
+i<ARToolKitPlus/TrackerSingleMarker.h>
+i<ARToolKitPlus/TrackerImpl.h>
+i<ARToolKitPlus/Logger.h>
+i"../src/TrackerSingleMarkerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/ar.h
+c000000004446FFCA0000000000000B28
+t1145503690
+s2856
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/arBitFieldPattern.h
+c000000004446FFCA0000000000000DD6
+t1145503690
+s3542
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/arMulti.h
+c000000004446FFCA00000000000009CD
+t1145503690
+s2509
+i<stdio.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/ar.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/byteSwap.h
+c000000004446FFCA00000000000007DB
+t1145503690
+s2011
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/config.h
+c000000004446FFCA0000000000001AC6
+t1145503690
+s6854
+i<config.h>
+i<windows.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/BCH.h
+c000000004446FFCA0000000000001019
+t1145503690
+s4121
+i<stdio.h>
+i<stdlib.h>
+i<vector>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/Profiler.h
+c000000004446FFCA0000000000000F50
+t1145503690
+s3920
+i<windows.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/rpp.h
+c000000004446FFCA00000000000008D4
+t1145503690
+s2260
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/matrix.h
+c000000004446FFCA0000000000000C95
+t1145503690
+s3221
+i<math.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/vector.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/param.h
+c000000004446FFCA0000000000000977
+t1145503690
+s2423
+i<ARToolKitPlus/config.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/vector.h
+c000000004446FFCA0000000000000910
+t1145503690
+s2320
+i<math.h>
+i<ARToolKitPlus/config.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolkitPlus/ar.h
+c000000004446FFCA0000000000000B28
+t1145503690
+s2856
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraAdvImpl.cxx
+c0000000044C6799A000000000000185E
+t1153857946
+s6238
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/CameraAdvImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraFactory.cxx
+c000000004446FFCA00000000000008D7
+t1145503690
+s2263
+i<ARToolKitPlus/CameraFactory.h>
+i<ARToolKitPlus/CameraImpl.h>
+i<ARToolKitPlus/CameraAdvImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraImpl.cxx
+c0000000044C6799A0000000000001456
+t1153857946
+s5206
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/CameraImpl.h>
+i<ARToolKitPlus/byteSwap.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerImpl.cxx
+c0000000044C6799A0000000000005058
+t1153857946
+s20568
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerMultiMarkerImpl.cxx
+c00000000445796E6000000000000142A
+t1146590950
+s5162
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerSingleMarkerImpl.cxx
+c0000000044C6799A000000000000199A
+t1153857946
+s6554
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arBitFieldPattern.cxx
+c000000004D2771EF0000000000003F5E
+t1294430703
+s16222
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/arBitFieldPattern.h>
+i<assert.h>
+i<memory.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arDetectMarker.cxx
+c000000004446FFCA000000000000223E
+t1145503690
+s8766
+i<ARToolKitPlus/Tracker.h>
+i<stdio.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arDetectMarker2.cxx
+c000000004D2771EF0000000000003243
+t1294430703
+s12867
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetCode.cxx
+c000000004D2771EF0000000000007C16
+t1294430703
+s31766
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetMarkerInfo.cxx
+c000000004446FFCA0000000000000B93
+t1145503690
+s2963
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat.cxx
+c000000004446FFCA0000000000002E2C
+t1145503690
+s11820
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat2.cxx
+c000000004446FFCA0000000000003BE4
+t1145503690
+s15332
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat3.cxx
+c000000004446FFCA00000000000070BE
+t1145503690
+s28862
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMatCont.cxx
+c000000004446FFCA00000000000010C5
+t1145503690
+s4293
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arLabeling.cxx
+c000000004446FFCA0000000000004511
+t1145503690
+s17681
+i<stdlib.h>
+i<stdio.h>
+i<ARToolKitPlus/Tracker.h>
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arLabelingImpl.hxx
+c000000004446FFCA0000000000003A60
+t1145503690
+s14944
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiActivate.cxx
+c000000004446FFCA0000000000000AF4
+t1145503690
+s2804
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/arMulti.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiGetTransMat.cxx
+c000000004446FFCA0000000000003757
+t1145503690
+s14167
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiReadConfigFile.cxx
+c000000004446FFCA00000000000017AE
+t1145503690
+s6062
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arUtil.cxx
+c000000004446FFCA00000000000015F5
+t1145503690
+s5621
+i<stdio.h>
+i<math.h>
+i<sys/timeb.h>
+i<windows.h>
+i<sys/time.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/byteSwap.cxx
+c000000004446FFCA0000000000000BEF
+t1145503690
+s3055
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/mPCA.cxx
+c000000004446FFCA0000000000003112
+t1145503690
+s12562
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/matrix.cxx
+c000000004446FFCA000000000000276E
+t1145503690
+s10094
+i<stdio.h>
+i<math.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramDecomp.cxx
+c000000004446FFCA0000000000001444
+t1145503690
+s5188
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramDistortion.cxx
+c0000000044C6799A00000000000014DD
+t1153857946
+s5341
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Camera.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramFile.cxx
+c000000004446FFCA000000000000157B
+t1145503690
+s5499
+i<stdio.h>
+i<stdarg.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/rppGetTransMat.cxx
+c000000004446FFCA000000000000109E
+t1145503690
+s4254
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/extra/rpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/rppMultiGetTransMat.cxx
+c000000004446FFCA000000000000140C
+t1145503690
+s5132
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<map>
+i<deque>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/extra/rpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/vector.cxx
+c000000004446FFCA000000000000155C
+t1145503690
+s5468
+i<stdlib.h>
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/vector.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/extra/BCH.cxx
+c000000004446FFCA00000000000041FB
+t1145503690
+s16891
+i<ARToolKitPlus/extra/BCH.h>
+i"assert.h"
+i<vector>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/extra/FixedPoint.h
+c00000000445796E6000000000000159F
+t1146590950
+s5535
+i<gpp.h>
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../../../ARToolKitPlus_2.1.1/build/XCode.OSX/build/Debug/libARToolKitPlus.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../../../ARToolKitPlus_2.1.1/build/XCode.OSX/build/Release/libARToolKitPlus.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp
+c000000004D276CB30000000000004554
+t1294429363
+s17748
+i<math.h>
+i<string>
+i<map>
+i"ARToolkitPlus/ar.h"
+i"ARToolKitPlus/TrackerSingleMarkerImpl.h"
+i"ARToolKitPlus/TrackerMultiMarkerImpl.h"
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/English.lproj/InfoPlist.strings
+c0000000049E4F0FA000000000000005A
+t1239740666
+s90
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/ARToolkitPlusPlugin.o
+t1294678490
+s938080
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/TrackerWrapper.LinkFileList
+c000000004D2B39D3000000000000009B
+t1294678483
+s155
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/x86_64/ARToolkitPlusPlugin.o
+t1294678234
+s1098652
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/x86_64/TrackerWrapper.LinkFileList
+c000000004D2B38D4000000000000009D
+t1294678228
+s157
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle
+t1294678490
+s102
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle.dSYM
+t1294678490
+s102
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Info.plist
+t1294678483
+s775
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper
+t1294678490
+s447688
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+t1294678484
+s90
+
+NInfo.plist
+c0000000049E4F0FA0000000000000348
+t1239740666
+s840
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316371283#316371283#0(0"0(0#1#0"8614203136#0"0#
+
+CCompileC build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/ARToolkitPlusPlugin.o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s316371284.062059
+e316371290.469964
+r1
+xCompileC
+xbuild/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/ARToolkitPlusPlugin.o
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@86"Compile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316371284#316371290#0(3717"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'19(22@51"Format not a string literal and no format arguments316371284#147#145#0(6@78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316122163#132#0#132#0#51"format not a string literal and no format arguments0(23@22"Instantiated from here316371284#702#109#0(6@78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316371284#811#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#960#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#1109#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#1258#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#1407#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#1556#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#1705#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#1854#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(23@22"Instantiated from here316371284#2416#109#0(6@78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316371284#2525#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#2674#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#2823#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#2972#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#3121#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#3270#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#3419#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371284#3568#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(0#0#78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp8620326016#1177"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/TrackerWrapper.hmap -F/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/include -I/Users/ahill/ARToolKitPlus_2.1.1/include -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/DerivedSources/i386 -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/DerivedSources -c /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/ARToolkitPlusPlugin.o0#
+
+CCompileC build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/x86_64/ARToolkitPlusPlugin.o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316371028.460960
+e316371034.476362
+r1
+xCompileC
+xbuild/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/x86_64/ARToolkitPlusPlugin.o
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@86"Compile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316371028#316371034#0(3717"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'19(22@51"Format not a string literal and no format arguments316371028#147#145#0(6@78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316122163#132#0#132#0#51"format not a string literal and no format arguments0(23@22"Instantiated from here316371028#702#109#0(6@78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316371028#811#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#960#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#1109#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#1258#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#1407#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#1556#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#1705#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#1854#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(23@22"Instantiated from here316371028#2416#109#0(6@78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316371028#2525#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#2674#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#2823#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#2972#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#3121#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#3270#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#3419#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371028#3568#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(0#0#78"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp8621040416#1183"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/TrackerWrapper.hmap -F/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/include -I/Users/ahill/ARToolKitPlus_2.1.1/include -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/DerivedSources/x86_64 -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/DerivedSources -c /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/../ARToolkitPlusPlugin.cpp -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/x86_64/ARToolkitPlusPlugin.o0#
+
+CCopyStringsFile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s316371283.676229
+e316371284.061964
+r1
+xCopyStringsFile
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings316371283#316371284#0(0"0(0#0#83"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/English.lproj/InfoPlist.strings8613489152#404"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Resources/English.lproj0#
+
+CGenerateDSYMFile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle.dSYM /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper
+s316371290.711903
+e316371290.939982
+r1
+xGenerateDSYMFile
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle.dSYM
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper
+lSLF07#2@123"GenerateDSYMFile build/Release/TrackerWrapper.bundle.dSYM build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper316371290#316371290#0(0"0(0#0#117"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper8616479008#305"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    /Developer/usr/bin/dsymutil /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle.dSYM0#
+
+CLd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper normal i386
+s316371290.470085
+e316371290.711803
+r1
+xLd
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper
+xnormal
+xi386
+lSLF07#2@122"Link /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper316371290#316371290#0(0"0(0#0#0"8618333952#742"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.OSX/build/Release -F/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release -filelist /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/i386/TrackerWrapper.LinkFileList -mmacosx-version-min=10.6 -lARToolKitPlus -lARToolKitPlus -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper0#
+
+CLd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper normal x86_64
+s316371034.476537
+e316371034.518991
+r0
+xLd
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper
+xnormal
+xx86_64
+old: warning: in /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.OSX/build/Release/libARToolKitPlus.a, missing required architecture x86_64 in file
+oUndefined symbols:
+o  "robustPlanarPose(double&, double (&) [3][3], double (&) [3], double const*, double const*, double const (*) [3], double const (*) [3], unsigned int, double const (*) [3], bool, double, double, unsigned int)", referenced from:
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::rppGetTransMat(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::rppGetTransMat(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::rppMultiGetTransMat(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::rppMultiGetTransMat(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o
+o  "rppSupportAvailabe()", referenced from:
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::executeMultiMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::executeSingleMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::executeMultiMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::executeSingleMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::getDescription()              in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::getDescription()              in ARToolkitPlusPlugin.o
+o  "ARToolKitPlus::artkp_Free(void*)", referenced from:
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::changeCameraSize(int, int)       in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::checkImageBuffer()              in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::changeCameraSize(int, int)       in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::checkImageBuffer()              in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::buildUndistO2ITable(ARToolKitPlus::Camera*)   in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::buildUndistO2ITable(ARToolKitPlus::Camera*)   in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::setCamera(ARToolKitPlus::Camera*)  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::setCamera(ARToolKitPlus::Camera*)  in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::~TrackerMultiMarkerImpl()in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::~TrackerMultiMarkerImpl()in ARToolkitPlusPlugin.o
+o  "ARToolKitPlus::Profiler::reset()", referenced from:
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::TrackerImpl()   in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::TrackerImpl()   in ARToolkitPlusPlugin.o
+o  "ARToolKitPlus::memManager", referenced from:
+o      unsigned char* ARToolKitPlus::artkp_Alloc<unsigned char>(unsigned long)in ARToolkitPlusPlugin.o
+o      unsigned int* ARToolKitPlus::artkp_Alloc<unsigned int>(unsigned long)in ARToolkitPlusPlugin.o
+o      short* ARToolKitPlus::artkp_Alloc<short>(unsigned long)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::ARMarkerInfo2* ARToolKitPlus::artkp_Alloc<ARToolKitPlus::ARMarkerInfo2>(unsigned long)in ARToolkitPlusPlugin.o
+o      float* ARToolKitPlus::artkp_Alloc<float>(unsigned long)in ARToolkitPlusPlugin.o
+o      int* ARToolKitPlus::artkp_Alloc<int>(unsigned long)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o
+o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@122"Link /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper316371034#316371034#0(8907"ld: warning: in /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.OSX/build/Release/libARToolKitPlus.a, missing required architecture x86_64 in fileUndefined symbols:  "robustPlanarPose(double&, double (&) [3][3], double (&) [3], double const*, double const*, double const (*) [3], double const (*) [3], unsigned int, double const (*) [3], bool, double, double, unsigned int)", referenced from:      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::rppGetTransMat(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::rppGetTransMat(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::rppMultiGetTransMat(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::rppMultiGetTransMat(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o  "rppSupportAvailabe()", referenced from:      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::executeMultiMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::executeSingleMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::executeMultiMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::executeSingleMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::getDescription()              in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::getDescription()              in ARToolkitPlusPlugin.o  "ARToolKitPlus::artkp_Free(void*)", referenced from:      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::changeCameraSize(int, int)       in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::checkImageBuffer()              in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::changeCameraSize(int, int)       in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::checkImageBuffer()              in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::buildUndistO2ITable(ARToolKitPlus::Camera*)   in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::buildUndistO2ITable(ARToolKitPlus::Camera*)   in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::setCamera(ARToolKitPlus::Camera*)  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::setCamera(ARToolKitPlus::Camera*)  in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::~TrackerMultiMarkerImpl()in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::~TrackerMultiMarkerImpl()in ARToolkitPlusPlugin.o  "ARToolKitPlus::Profiler::reset()", referenced from:      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::TrackerImpl()   in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::TrackerImpl()   in ARToolkitPlusPlugin.o  "ARToolKitPlus::memManager", referenced from:      unsigned char* ARToolKitPlus::artkp_Alloc<unsigned char>(unsigned long)in ARToolkitPlusPlugin.o      unsigned int* ARToolKitPlus::artkp_Alloc<unsigned int>(unsigned long)in ARToolkitPlusPlugin.o      short* ARToolKitPlus::artkp_Alloc<short>(unsigned long)in ARToolkitPlusPlugin.o      ARToolKitPlus::ARMarkerInfo2* ARToolKitPlus::artkp_Alloc<ARToolKitPlus::ARMarkerInfo2>(unsigned long)in ARToolkitPlusPlugin.o      float* ARToolKitPlus::artkp_Alloc<float>(unsigned long)in ARToolkitPlusPlugin.o      int* ARToolKitPlus::artkp_Alloc<int>(unsigned long)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o      ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.old: symbol(s) not foundcollect2: ld returned 1 exit status85(22@130"In /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.OSX/build/Release/libARToolKitPlus.a, missing required architecture x86_64 in file316371034#0#144#0(6@0"316371034#0#0#0#0#0"0(4@226""robustPlanarPose(double&, double (&) [3][3], double (&) [3], double const*, double const*, double const (*) [3], double const (*) [3], unsigned int, double const (*) [3], bool, double, double, unsigned int)", referenced from:316371034#163#229#0(6@0"316371034#0#0#0#0#0"0(13@145"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::rppGetTransMat(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o316371034#392#152#0(6@0"316371034#0#0#0#0#0"0(13@142"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::rppGetTransMat(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o316371034#544#149#0(6@0"316371034#0#0#0#0#0"0(13@158"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::rppMultiGetTransMat(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o316371034#693#165#0(6@0"316371034#0#0#0#0#0"0(13@161"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::rppMultiGetTransMat(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o316371034#858#168#0(6@0"316371034#0#0#0#0#0"0(4@40""rppSupportAvailabe()", referenced from:316371034#1026#43#0(6@0"316371034#0#0#0#0#0"0(13@173"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::executeMultiMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o316371034#1069#180#0(6@0"316371034#0#0#0#0#0"0(13@163"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::executeSingleMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o316371034#1249#170#0(6@0"316371034#0#0#0#0#0"0(13@170"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::executeMultiMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, int, ARToolKitPlus::ARMultiMarkerInfoT*)in ARToolkitPlusPlugin.o316371034#1419#177#0(6@0"316371034#0#0#0#0#0"0(13@160"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::executeSingleMarkerPoseEstimator(ARToolKitPlus::ARMarkerInfo*, float*, float, float (*) [4])in ARToolkitPlusPlugin.o316371034#1596#167#0(6@0"316371034#0#0#0#0#0"0(13@101"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::getDescription()              in ARToolkitPlusPlugin.o316371034#1763#108#0(6@0"316371034#0#0#0#0#0"0(13@98"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::getDescription()              in ARToolkitPlusPlugin.o316371034#1871#105#0(6@0"316371034#0#0#0#0#0"0(4@52""ARToolKitPlus::artkp_Free(void*)", referenced from:316371034#1976#55#0(6@0"316371034#0#0#0#0#0"0(13@104"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::changeCameraSize(int, int)       in ARToolkitPlusPlugin.o316371034#2031#111#0(6@0"316371034#0#0#0#0#0"0(13@103"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::checkImageBuffer()              in ARToolkitPlusPlugin.o316371034#2142#110#0(6@0"316371034#0#0#0#0#0"0(13@101"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::changeCameraSize(int, int)       in ARToolkitPlusPlugin.o316371034#2252#108#0(6@0"316371034#0#0#0#0#0"0(13@100"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::checkImageBuffer()              in ARToolkitPlusPlugin.o316371034#2360#107#0(6@0"316371034#0#0#0#0#0"0(13@93"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o316371034#2467#100#0(6@0"316371034#0#0#0#0#0"0(13@90"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o316371034#2567#97#0(6@0"316371034#0#0#0#0#0"0(13@117"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::buildUndistO2ITable(ARToolKitPlus::Camera*)   in ARToolkitPlusPlugin.o316371034#2664#124#0(6@0"316371034#0#0#0#0#0"0(13@114"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::buildUndistO2ITable(ARToolKitPlus::Camera*)   in ARToolkitPlusPlugin.o316371034#2788#121#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#2909#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3000#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3091#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3182#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3273#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3364#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3455#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3546#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3637#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3728#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3819#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#3910#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4001#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4092#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4183#91#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4274#91#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4365#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4459#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4553#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4647#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4741#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4835#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#4929#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5023#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5117#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5211#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5305#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5399#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5493#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5587#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5681#94#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::~TrackerImpl()  in ARToolkitPlusPlugin.o316371034#5775#94#0(6@0"316371034#0#0#0#0#0"0(13@106"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::setCamera(ARToolKitPlus::Camera*)  in ARToolkitPlusPlugin.o316371034#5869#113#0(6@0"316371034#0#0#0#0#0"0(13@103"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::setCamera(ARToolKitPlus::Camera*)  in ARToolkitPlusPlugin.o316371034#5982#110#0(6@0"316371034#0#0#0#0#0"0(13@105"ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o316371034#6092#112#0(6@0"316371034#0#0#0#0#0"0(13@109"ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o316371034#6204#116#0(6@0"316371034#0#0#0#0#0"0(13@109"ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o316371034#6320#116#0(6@0"316371034#0#0#0#0#0"0(13@102"ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o316371034#6436#109#0(6@0"316371034#0#0#0#0#0"0(13@106"ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o316371034#6545#113#0(6@0"316371034#0#0#0#0#0"0(13@101"ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::cleanup()             in ARToolkitPlusPlugin.o316371034#6658#108#0(6@0"316371034#0#0#0#0#0"0(13@104"ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::~TrackerMultiMarkerImpl()in ARToolkitPlusPlugin.o316371034#6766#111#0(6@0"316371034#0#0#0#0#0"0(13@106"ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::~TrackerSingleMarkerImpl()in ARToolkitPlusPlugin.o316371034#6877#113#0(6@0"316371034#0#0#0#0#0"0(13@104"ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::~TrackerMultiMarkerImpl()in ARToolkitPlusPlugin.o316371034#6990#111#0(6@0"316371034#0#0#0#0#0"0(4@52""ARToolKitPlus::Profiler::reset()", referenced from:316371034#7101#55#0(6@0"316371034#0#0#0#0#0"0(13@84"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::TrackerImpl()   in ARToolkitPlusPlugin.o316371034#7156#91#0(6@0"316371034#0#0#0#0#0"0(13@87"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::TrackerImpl()   in ARToolkitPlusPlugin.o316371034#7247#94#0(6@0"316371034#0#0#0#0#0"0(4@45""ARToolKitPlus::memManager", referenced from:316371034#7341#48#0(6@0"316371034#0#0#0#0#0"0(13@95"Unsigned char* ARToolKitPlus::artkp_Alloc<unsigned char>(unsigned long)in ARToolkitPlusPlugin.o316371034#7389#102#0(6@0"316371034#0#0#0#0#0"0(13@93"Unsigned int* ARToolKitPlus::artkp_Alloc<unsigned int>(unsigned long)in ARToolkitPlusPlugin.o316371034#7491#100#0(6@0"316371034#0#0#0#0#0"0(13@79"Short* ARToolKitPlus::artkp_Alloc<short>(unsigned long)in ARToolkitPlusPlugin.o316371034#7591#86#0(6@0"316371034#0#0#0#0#0"0(13@125"ARToolKitPlus::ARMarkerInfo2* ARToolKitPlus::artkp_Alloc<ARToolKitPlus::ARMarkerInfo2>(unsigned long)in ARToolkitPlusPlugin.o316371034#7677#132#0(6@0"316371034#0#0#0#0#0"0(13@79"Float* ARToolKitPlus::artkp_Alloc<float>(unsigned long)in ARToolkitPlusPlugin.o316371034#7809#86#0(6@0"316371034#0#0#0#0#0"0(13@75"Int* ARToolKitPlus::artkp_Alloc<int>(unsigned long)in ARToolkitPlusPlugin.o316371034#7895#82#0(6@0"316371034#0#0#0#0#0"0(13@106"ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o316371034#7977#113#0(6@0"316371034#0#0#0#0#0"0(13@107"ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o316371034#8090#114#0(6@0"316371034#0#0#0#0#0"0(13@110"ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::operator new(unsigned long)in ARToolkitPlusPlugin.o316371034#8204#117#0(6@0"316371034#0#0#0#0#0"0(13@90"ARToolKitPlus::TrackerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o316371034#8321#97#0(6@0"316371034#0#0#0#0#0"0(13@93"ARToolKitPlus::TrackerImpl<20, 20, 20, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o316371034#8418#100#0(6@0"316371034#0#0#0#0#0"0(13@101"ARToolKitPlus::TrackerMultiMarkerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o316371034#8518#108#0(6@0"316371034#0#0#0#0#0"0(13@102"ARToolKitPlus::TrackerSingleMarkerImpl<6, 6, 6, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o316371034#8626#109#0(6@0"316371034#0#0#0#0#0"0(13@105"ARToolKitPlus::TrackerSingleMarkerImpl<20, 20, 20, 1, 16>::operator delete(void*)in ARToolkitPlusPlugin.o316371034#8735#112#0(6@0"316371034#0#0#0#0#0"0(13@19"Symbol(s) not found316371034#8847#24#0(6@0"316371034#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status316371034#8871#36#0(6@0"316371034#0#0#0#0#0"0(0#0#0"8620326016#746"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.OSX/build/Release -F/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release -filelist /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/ARToolkitPlusPlugin.build/Release/TrackerWrapper.build/Objects-normal/x86_64/TrackerWrapper.LinkFileList -mmacosx-version-min=10.5 -lARToolKitPlus -lARToolKitPlus -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/MacOS/TrackerWrapper1#
+
+CProcessInfoPlistFile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Info.plist Info.plist
+s316371283.671949
+e316371283.676157
+r1
+xProcessInfoPlistFile
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist316371283#316371283#0(0"0(0#0#62"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/Info.plist8613849504#248"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle/Contents/Info.plist0#
+
+CTouch /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle
+s316371290.940068
+e316371290.958066
+r1
+xTouch
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle
+lSLF07#2@93"Touch /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle316371290#316371290#0(0"0(0#0#0"8620060320#169"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX    /usr/bin/touch -c /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/OSX/build/Release/TrackerWrapper.bundle0#
+

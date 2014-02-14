@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F58181FF11615B4C00D5561F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924F79466DDDE5607209B2E4 /* src.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5D6192C1119D91700753510;
+			remoteInfo = ARToolKitPlus;
+		};
+		F5D6170D1117570800753510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924F79466DDDE5607209B2E4 /* src.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F52A29FC10CFF4EF000FD3B6;
+			remoteInfo = libARToolKitPlus;
+		};
+		F5D617251117575600753510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC99CB5CB76E53E146F12089 /* multi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F52A2A5410CFFBDD000FD3B6;
+			remoteInfo = multi;
+		};
+		F5D6172D1117575F00753510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3E1864AE9E011DE8A37ABF /* simple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F52A2A4B10CFFBDD000FD3B6;
+			remoteInfo = simple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3E1864AE9E011DE8A37ABF /* simple.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = simple.xcodeproj; path = ../../sample/simple/build/XCode.OSX/simple.xcodeproj; sourceTree = "<group>"; };
+		924F79466DDDE5607209B2E4 /* src.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = src.xcodeproj; sourceTree = "<group>"; };
+		FC99CB5CB76E53E146F12089 /* multi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = multi.xcodeproj; path = ../../sample/multi/build/XCode.OSX/multi.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E71022E8970293824BA089C = {
+			isa = PBXGroup;
+			children = (
+				924F79466DDDE5607209B2E4 /* src.xcodeproj */,
+				2361F8FA4BEEAC2052635CF8 /* sample */,
+			);
+			sourceTree = "<group>";
+		};
+		1BB4CE8E2FB2995FD17F9C38 /* simple */ = {
+			isa = PBXGroup;
+			children = (
+				3B3E1864AE9E011DE8A37ABF /* simple.xcodeproj */,
+			);
+			name = simple;
+			sourceTree = "<group>";
+		};
+		2361F8FA4BEEAC2052635CF8 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				1BB4CE8E2FB2995FD17F9C38 /* simple */,
+				36ADDE85FF2C7CE25F07C401 /* multi */,
+			);
+			name = sample;
+			sourceTree = "<group>";
+		};
+		36ADDE85FF2C7CE25F07C401 /* multi */ = {
+			isa = PBXGroup;
+			children = (
+				FC99CB5CB76E53E146F12089 /* multi.xcodeproj */,
+			);
+			name = multi;
+			sourceTree = "<group>";
+		};
+		F5D6170A1117570800753510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6170E1117570800753510 /* libARToolKitPlus.dylib */,
+				F581820011615B4C00D5561F /* libARToolKitPlus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D617221117575600753510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D617261117575600753510 /* multi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D6172A1117575F00753510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6172E1117575F00753510 /* simple */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		83F5E4B52EF1918F746DF6D4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 30E61B081CF688BCA30A6135 /* Build configuration list for PBXProject "artoolkitplus" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0E71022E8970293824BA089C;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F5D617221117575600753510 /* Products */;
+					ProjectRef = FC99CB5CB76E53E146F12089 /* multi.xcodeproj */;
+				},
+				{
+					ProductGroup = F5D6172A1117575F00753510 /* Products */;
+					ProjectRef = 3B3E1864AE9E011DE8A37ABF /* simple.xcodeproj */;
+				},
+				{
+					ProductGroup = F5D6170A1117570800753510 /* Products */;
+					ProjectRef = 924F79466DDDE5607209B2E4 /* src.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F581820011615B4C00D5561F /* libARToolKitPlus.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libARToolKitPlus.a;
+			remoteRef = F58181FF11615B4C00D5561F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5D6170E1117570800753510 /* libARToolKitPlus.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libARToolKitPlus.dylib;
+			remoteRef = F5D6170D1117570800753510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5D617261117575600753510 /* multi */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = multi;
+			remoteRef = F5D617251117575600753510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5D6172E1117575F00753510 /* simple */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = simple;
+			remoteRef = F5D6172D1117575F00753510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		B2A2D94BC0E5A82DA3503E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C6EE5F4E4F422FDDBF285003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E61B081CF688BCA30A6135 /* Build configuration list for PBXProject "artoolkitplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A2D94BC0E5A82DA3503E81 /* Debug */,
+				C6EE5F4E4F422FDDBF285003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F5E4B52EF1918F746DF6D4 /* Project object */;
+}

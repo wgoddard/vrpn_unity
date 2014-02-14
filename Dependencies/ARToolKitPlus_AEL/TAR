@@ -1,0 +1,2 @@
+tar --exclude '.DS_Store' -cvzf ARToolKitPlus_AEL.tgz ARToolKitPlus_2.1.1
+

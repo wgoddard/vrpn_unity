@@ -1,0 +1,702 @@
+TTrackerWrapper
+v7
+r0
+t316451546.042295
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/assert.h
+c000000004CB3E4B80000000000000DCB
+t1286857912
+s3531
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/memory.h
+c000000004CB3E4B80000000000000765
+t1286857912
+s1893
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/timeb.h
+c000000004CBFACD900000000000010C2
+t1287630041
+s4290
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004C5A568700000000000010DD
+t1280988807
+s4317
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/ARToolKitPlus.h
+c000000004D2771EF0000000000000EB2
+t1294430703
+s3762
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Camera.h
+c0000000044C6799A0000000000000A91
+t1153857946
+s2705
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraAdvImpl.h
+c000000004446FFCA0000000000000A45
+t1145503690
+s2629
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraFactory.h
+c000000004446FFCA00000000000007BD
+t1145503690
+s1981
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/CameraImpl.h
+c000000004446FFCA0000000000000922
+t1145503690
+s2338
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Logger.h
+c000000004446FFCA0000000000000BCB
+t1145503690
+s3019
+i<stdio.h>
+i<stdarg.h>
+i<string.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/MemoryManager.h
+c00000000445796E60000000000000E46
+t1146590950
+s3654
+i"ARToolKitPlus.h"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/Tracker.h
+c000000004D2771EF0000000000002E7B
+t1294430703
+s11899
+i<ARToolKitPlus/ARToolKitPlus.h>
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/arMulti.h>
+i<ARToolKitPlus/Logger.h>
+i<ARToolKitPlus/extra/Profiler.h>
+i<ARToolKitPlus/Camera.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerImpl.h
+c000000004D2771EF00000000000064EB
+t1294430703
+s25835
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/arMulti.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/MemoryManager.h>
+i<ARToolKitPlus/Camera.h>
+i<ARToolKitPlus/CameraFactory.h>
+i<ARToolKitPlus/extra/BCH.h>
+i"../../src/extra/FixedPoint.h"
+i"../../src/core/arBitFieldPattern.cxx"
+i"../../src/core/arDetectMarker.cxx"
+i"../../src/core/arDetectMarker2.cxx"
+i"../../src/core/arGetCode.cxx"
+i"../../src/core/arGetMarkerInfo.cxx"
+i"../../src/core/arGetTransMat.cxx"
+i"../../src/core/arGetTransMat2.cxx"
+i"../../src/core/arGetTransMat3.cxx"
+i"../../src/core/rppGetTransMat.cxx"
+i"../../src/core/arGetTransMatCont.cxx"
+i"../../src/core/arLabeling.cxx"
+i"../../src/core/arMultiActivate.cxx"
+i"../../src/core/arMultiGetTransMat.cxx"
+i"../../src/core/rppMultiGetTransMat.cxx"
+i"../../src/core/arMultiReadConfigFile.cxx"
+i"../../src/core/arUtil.cxx"
+i"../../src/core/matrix.cxx"
+i"../../src/core/mPCA.cxx"
+i"../../src/core/paramDecomp.cxx"
+i"../../src/core/paramDistortion.cxx"
+i"../../src/core/byteSwap.cxx"
+i"../../src/core/paramFile.cxx"
+i"../../src/core/vector.cxx"
+i"../../src/CameraImpl.cxx"
+i"../../src/CameraAdvImpl.cxx"
+i"../../src/CameraFactory.cxx"
+i"../../src/extra/BCH.cxx"
+i"../../src/TrackerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerMultiMarker.h
+c00000000445796E60000000000001160
+t1146590950
+s4448
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerMultiMarkerImpl.h
+c000000004D2771EF0000000000002C6B
+t1294430703
+s11371
+i<ARToolKitPlus/TrackerMultiMarker.h>
+i<ARToolKitPlus/TrackerImpl.h>
+i<ARToolKitPlus/Logger.h>
+i"../src/TrackerMultiMarkerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarker.h
+c00000000445796E60000000000000F94
+t1146590950
+s3988
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Logger.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarkerImpl.h
+c000000004D2771EF0000000000002AED
+t1294430703
+s10989
+i<ARToolKitPlus/TrackerSingleMarker.h>
+i<ARToolKitPlus/TrackerImpl.h>
+i<ARToolKitPlus/Logger.h>
+i"../src/TrackerSingleMarkerImpl.cxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/ar.h
+c000000004446FFCA0000000000000B28
+t1145503690
+s2856
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/arBitFieldPattern.h
+c000000004446FFCA0000000000000DD6
+t1145503690
+s3542
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/arMulti.h
+c000000004446FFCA00000000000009CD
+t1145503690
+s2509
+i<stdio.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/ar.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/byteSwap.h
+c000000004446FFCA00000000000007DB
+t1145503690
+s2011
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/config.h
+c000000004446FFCA0000000000001AC6
+t1145503690
+s6854
+i<config.h>
+i<windows.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/BCH.h
+c000000004446FFCA0000000000001019
+t1145503690
+s4121
+i<stdio.h>
+i<stdlib.h>
+i<vector>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/Profiler.h
+c000000004446FFCA0000000000000F50
+t1145503690
+s3920
+i<windows.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/extra/rpp.h
+c000000004446FFCA00000000000008D4
+t1145503690
+s2260
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/matrix.h
+c000000004446FFCA0000000000000C95
+t1145503690
+s3221
+i<math.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/vector.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/param.h
+c000000004446FFCA0000000000000977
+t1145503690
+s2423
+i<ARToolKitPlus/config.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/vector.h
+c000000004446FFCA0000000000000910
+t1145503690
+s2320
+i<math.h>
+i<ARToolKitPlus/config.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolkitPlus/ar.h
+c000000004446FFCA0000000000000B28
+t1145503690
+s2856
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/config.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraAdvImpl.cxx
+c0000000044C6799A000000000000185E
+t1153857946
+s6238
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/CameraAdvImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraFactory.cxx
+c000000004446FFCA00000000000008D7
+t1145503690
+s2263
+i<ARToolKitPlus/CameraFactory.h>
+i<ARToolKitPlus/CameraImpl.h>
+i<ARToolKitPlus/CameraAdvImpl.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/CameraImpl.cxx
+c0000000044C6799A0000000000001456
+t1153857946
+s5206
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/CameraImpl.h>
+i<ARToolKitPlus/byteSwap.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerImpl.cxx
+c0000000044C6799A0000000000005058
+t1153857946
+s20568
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerMultiMarkerImpl.cxx
+c00000000445796E6000000000000142A
+t1146590950
+s5162
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/TrackerSingleMarkerImpl.cxx
+c0000000044C6799A000000000000199A
+t1153857946
+s6554
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arBitFieldPattern.cxx
+c000000004D2771EF0000000000003F5E
+t1294430703
+s16222
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/arBitFieldPattern.h>
+i<assert.h>
+i<memory.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arDetectMarker.cxx
+c000000004446FFCA000000000000223E
+t1145503690
+s8766
+i<ARToolKitPlus/Tracker.h>
+i<stdio.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arDetectMarker2.cxx
+c000000004D2771EF0000000000003243
+t1294430703
+s12867
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetCode.cxx
+c000000004D2771EF0000000000007C16
+t1294430703
+s31766
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/ar.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetMarkerInfo.cxx
+c000000004446FFCA0000000000000B93
+t1145503690
+s2963
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat.cxx
+c000000004446FFCA0000000000002E2C
+t1145503690
+s11820
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat2.cxx
+c000000004446FFCA0000000000003BE4
+t1145503690
+s15332
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMat3.cxx
+c000000004446FFCA00000000000070BE
+t1145503690
+s28862
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arGetTransMatCont.cxx
+c000000004446FFCA00000000000010C5
+t1145503690
+s4293
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arLabeling.cxx
+c000000004446FFCA0000000000004511
+t1145503690
+s17681
+i<stdlib.h>
+i<stdio.h>
+i<ARToolKitPlus/Tracker.h>
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+i"arLabelingImpl.hxx"
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arLabelingImpl.hxx
+c000000004446FFCA0000000000003A60
+t1145503690
+s14944
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiActivate.cxx
+c000000004446FFCA0000000000000AF4
+t1145503690
+s2804
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/arMulti.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiGetTransMat.cxx
+c000000004446FFCA0000000000003757
+t1145503690
+s14167
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arMultiReadConfigFile.cxx
+c000000004446FFCA00000000000017AE
+t1145503690
+s6062
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/arUtil.cxx
+c000000004446FFCA00000000000015F5
+t1145503690
+s5621
+i<stdio.h>
+i<math.h>
+i<sys/timeb.h>
+i<windows.h>
+i<sys/time.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/param.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/byteSwap.cxx
+c000000004446FFCA0000000000000BEF
+t1145503690
+s3055
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/mPCA.cxx
+c000000004446FFCA0000000000003112
+t1145503690
+s12562
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/matrix.cxx
+c000000004446FFCA000000000000276E
+t1145503690
+s10094
+i<stdio.h>
+i<math.h>
+i<malloc.h>
+i<stdlib.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramDecomp.cxx
+c000000004446FFCA0000000000001444
+t1145503690
+s5188
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramDistortion.cxx
+c0000000044C6799A00000000000014DD
+t1153857946
+s5341
+i<stdio.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/Camera.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/paramFile.cxx
+c000000004446FFCA000000000000157B
+t1145503690
+s5499
+i<stdio.h>
+i<stdarg.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/param.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/rppGetTransMat.cxx
+c000000004446FFCA000000000000109E
+t1145503690
+s4254
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/extra/rpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/rppMultiGetTransMat.cxx
+c000000004446FFCA000000000000140C
+t1145503690
+s5132
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<map>
+i<deque>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/extra/rpp.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/core/vector.cxx
+c000000004446FFCA000000000000155C
+t1145503690
+s5468
+i<stdlib.h>
+i<stdio.h>
+i<malloc.h>
+i<stdlib.h>
+i<math.h>
+i<ARToolKitPlus/Tracker.h>
+i<ARToolKitPlus/matrix.h>
+i<ARToolKitPlus/vector.h>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/extra/BCH.cxx
+c000000004446FFCA00000000000041FB
+t1145503690
+s16891
+i<ARToolKitPlus/extra/BCH.h>
+i"assert.h"
+i<vector>
+
+N/Users/ahill/ARToolKitPlus_2.1.1/src/extra/FixedPoint.h
+c00000000445796E6000000000000159F
+t1146590950
+s5535
+i<gpp.h>
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../../../ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../../../ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp
+c000000004D276CB30000000000004554
+t1294429363
+s17748
+i<math.h>
+i<string>
+i<map>
+i"ARToolkitPlus/ar.h"
+i"ARToolKitPlus/TrackerSingleMarkerImpl.h"
+i"ARToolKitPlus/TrackerMultiMarkerImpl.h"
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv6/ARToolkitPlusPlugin.o
+t1294678699
+s906172
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv6/TrackerWrapper.LinkFileList
+c000000004D2B3AA400000000000000A8
+t1294678692
+s168
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv7/ARToolkitPlusPlugin.o
+t2
+s0
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv7/TrackerWrapper.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316451545#316451545#0(0"0(0#1#0"8616230016#0"0#
+
+CCompileC build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv6/ARToolkitPlusPlugin.o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s316371492.426784
+e316371499.482675
+r1
+xCompileC
+xbuild/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv6/ARToolkitPlusPlugin.o
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@89"Compile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316371492#316371499#0(3729"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'19(22@51"Format not a string literal and no format arguments316371492#150#148#0(6@81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316122163#132#0#132#0#51"format not a string literal and no format arguments0(23@22"Instantiated from here316371493#708#112#0(6@81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316371493#820#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#969#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#1118#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#1267#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#1416#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#1565#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#1714#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#1863#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(23@22"Instantiated from here316371493#2425#112#0(6@81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316371493#2537#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#2686#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#2835#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#2984#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#3133#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#3282#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#3431#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316371493#3580#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(0#0#81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp8615291584#1950"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-generated-files.hmap -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-own-target-headers.hmap -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-all-target-headers.hmap -iquote /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-project-headers.hmap -F/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/include -I/Users/ahill/ARToolKitPlus_2.1.1/include -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/DerivedSources/armv6 -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/DerivedSources -c /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv6/ARToolkitPlusPlugin.o0#
+
+CCompileC build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv7/ARToolkitPlusPlugin.o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s316411143.280478
+e316411156.872999
+r1
+xCompileC
+xbuild/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv7/ARToolkitPlusPlugin.o
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':
+o/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+o/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@89"Compile /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316411143#316411156#0(3729"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp: In member function 'virtual void ARTKLogger::artLog(const char*)':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:132: warning: format not a string literal and no format arguments/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 6, int __PATTERN_SIZE_Y = 6, int __PATTERN_SAMPLE_NUM = 6, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx: In member function 'const char* ARToolKitPlus::TrackerImpl<__PATTERN_SIZE_X, __PATTERN_SIZE_Y, __PATTERN_SAMPLE_NUM, __MAX_LOAD_PATTERNS, __MAX_IMAGE_PATTERNS>::getDescription() [with int __PATTERN_SIZE_X = 20, int __PATTERN_SIZE_Y = 20, int __PATTERN_SAMPLE_NUM = 20, int __MAX_LOAD_PATTERNS = 1, int __MAX_IMAGE_PATTERNS = 16]':/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp:599:   instantiated from here/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx:669: warning: deprecated conversion from string constant to 'char*'19(22@51"Format not a string literal and no format arguments316411143#150#148#0(6@81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316122163#132#0#132#0#51"format not a string literal and no format arguments0(23@22"Instantiated from here316411143#708#112#0(6@81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316411143#820#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#969#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#1118#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#1267#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#1416#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#1565#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#1714#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#1863#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(23@22"Instantiated from here316411143#2425#112#0(6@81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp316122163#599#0#599#0#0"0(22@53"Deprecated conversion from string constant to 'char*'316411143#2537#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#2686#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#2835#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#2984#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#3133#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#3282#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#3431#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316411143#3580#149#0(6@80"/Users/ahill/ARToolKitPlus_2.1.1/include/ARToolKitPlus/../../src/TrackerImpl.cxx175550746#669#0#669#0#49"deprecated conversion from string constant to '*'0(0#0#81"/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp8671135808#1950"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-generated-files.hmap -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-own-target-headers.hmap -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-all-target-headers.hmap -iquote /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/TrackerWrapper-project-headers.hmap -F/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/include -I/Users/ahill/ARToolKitPlus_2.1.1/include -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/DerivedSources/armv7 -I/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/DerivedSources -c /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/../ARToolkitPlusPlugin.cpp -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv7/ARToolkitPlusPlugin.o0#
+
+CLibtool /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a normal armv6
+s316371499.482799
+e316371499.538337
+r1
+xLibtool
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (DLL.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (FixedPoint.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (MemoryManager.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (Profiler.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (librpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_quintic.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_svd.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_vecmat.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols
+lSLF07#2@63"Libtool build/Release-iphoneos/libTrackerWrapper.a normal armv6316371499#316371499#0(4086"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (DLL.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (FixedPoint.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (MemoryManager.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (Profiler.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (librpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_quintic.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_svd.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_vecmat.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols0(0#0#0"8612191424#878"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos -filelist /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv6/TrackerWrapper.LinkFileList -lARToolKitPlus -lARToolKitPlus -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a0#
+
+CLibtool /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a normal armv7
+s316411156.873158
+e316411156.981394
+r1
+xLibtool
+x/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (DLL.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (FixedPoint.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (MemoryManager.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (Profiler.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (librpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_quintic.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_svd.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_vecmat.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) due to use of basename, truncation and blank padding
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols
+lSLF07#2@63"Libtool build/Release-iphoneos/libTrackerWrapper.a normal armv7316411156#316411156#0(4086"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (DLL.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(DLL.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (FixedPoint.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (MemoryManager.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(MemoryManager.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (Profiler.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(Profiler.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (librpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(librpp.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_quintic.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_quintic.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_svd.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_svd.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: warning same member name (rpp_vecmat.o) in output file used for input files: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) and: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(rpp_vecmat.o) due to use of basename, truncation and blank padding/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a(FixedPoint.o) has no symbols0(0#0#0"8660405568#878"    cd /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos -L/Users/ahill/ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos -filelist /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/ARToolkitPlusPlugin.build/Release-iphoneos/TrackerWrapper.build/Objects-normal/armv7/TrackerWrapper.LinkFileList -lARToolKitPlus -lARToolKitPlus -o /Users/ahill/TrackerWrapper/ARToolkitPlusPlugin/iPhone/build/Release-iphoneos/libTrackerWrapper.a0#
+

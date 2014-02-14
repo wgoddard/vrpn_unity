@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D6DAD8CF43C1F86BC5A22B /* rpp_svd.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 731AC2441B4FB2182289F392 /* rpp_svd.cpp */; settings = {ATTRIBUTES = (); }; };
+		413BB4F44150DBF5BD0D7F3D /* MemoryManager.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = F313118B312F13E5426A2FC6 /* MemoryManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		79E4B6777233EC342273647F /* FixedPoint.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = FBC83DA7901E63AA4D87A4F5 /* FixedPoint.cpp */; settings = {ATTRIBUTES = (); }; };
+		A0E29F34FE6850E2BEB3D432 /* rpp_vecmat.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 0B62AF1FF0BC087A6E9458D1 /* rpp_vecmat.cpp */; settings = {ATTRIBUTES = (); }; };
+		DAA40E3CCDFD64FD4B1758A8 /* librpp.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 8A5B0D746E441F40FC28F077 /* librpp.cpp */; settings = {ATTRIBUTES = (); }; };
+		DCFAEC1AC24CB4D26E5754E6 /* DLL.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 92C4B03DB7AA462F626490F0 /* DLL.cpp */; settings = {ATTRIBUTES = (); }; };
+		DF78A98D92AEDB0E2FA106EB /* Profiler.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 60B757C39B7E56A946900535 /* Profiler.cpp */; settings = {ATTRIBUTES = (); }; };
+		E8BB46E224DDDF9510F5933C /* rpp.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = C147F273977410906E8EF604 /* rpp.cpp */; settings = {ATTRIBUTES = (); }; };
+		EFAF8263F0806A282AFAEB9F /* rpp_quintic.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 3E76B8002A51F7D677383BBC /* rpp_quintic.cpp */; settings = {ATTRIBUTES = (); }; };
+		F52A29FE10CFF4EF000FD3B6 /* libARToolKitPlus.dylib in Project Copy */ = {isa = PBXBuildFile; fileRef = F52A29FC10CFF4EF000FD3B6 /* libARToolKitPlus.dylib */; };
+		F5D6192F1119D92E00753510 /* MemoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F313118B312F13E5426A2FC6 /* MemoryManager.cpp */; };
+		F5D619301119D92E00753510 /* DLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92C4B03DB7AA462F626490F0 /* DLL.cpp */; };
+		F5D619311119D92E00753510 /* rpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C147F273977410906E8EF604 /* rpp.cpp */; };
+		F5D619321119D92E00753510 /* rpp_quintic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E76B8002A51F7D677383BBC /* rpp_quintic.cpp */; };
+		F5D619331119D92E00753510 /* rpp_vecmat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B62AF1FF0BC087A6E9458D1 /* rpp_vecmat.cpp */; };
+		F5D619341119D92E00753510 /* rpp_svd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 731AC2441B4FB2182289F392 /* rpp_svd.cpp */; };
+		F5D619351119D92E00753510 /* librpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B0D746E441F40FC28F077 /* librpp.cpp */; };
+		F5D619361119D92E00753510 /* Profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60B757C39B7E56A946900535 /* Profiler.cpp */; };
+		F5D619371119D92E00753510 /* FixedPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBC83DA7901E63AA4D87A4F5 /* FixedPoint.cpp */; };
+		F5D6195A1119DB9C00753510 /* libARToolKitPlus.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5D6192C1119D91700753510 /* libARToolKitPlus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5D619531119DB1400753510 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../lib;
+			dstSubfolderSpec = 0;
+			files = (
+				F5D6195A1119DB9C00753510 /* libARToolKitPlus.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../../lib;
+			dstSubfolderSpec = 16;
+			files = (
+				F52A29FE10CFF4EF000FD3B6 /* libARToolKitPlus.dylib in Project Copy */,
+			);
+			name = "Project Copy";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B62AF1FF0BC087A6E9458D1 /* rpp_vecmat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpp_vecmat.cpp; path = ../../src/librpp/rpp_vecmat.cpp; sourceTree = "<group>"; };
+		19D39A0239D28D53D88917EB /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = ../../include/ARToolKitPlus/matrix.h; sourceTree = "<group>"; };
+		20723F33F75800754DA42FF2 /* arMulti.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arMulti.h; path = ../../include/ARToolKitPlus/arMulti.h; sourceTree = "<group>"; };
+		26025AFE995FF49A962230BA /* Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tracker.h; path = ../../include/ARToolKitPlus/Tracker.h; sourceTree = "<group>"; };
+		2A54C042E17C0B32EBB01261 /* TrackerSingleMarkerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrackerSingleMarkerImpl.h; path = ../../include/ARToolKitPlus/TrackerSingleMarkerImpl.h; sourceTree = "<group>"; };
+		2E52BF7C504DB2D916D3DF0C /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../include/ARToolKitPlus/config.h; sourceTree = "<group>"; };
+		3E76B8002A51F7D677383BBC /* rpp_quintic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpp_quintic.cpp; path = ../../src/librpp/rpp_quintic.cpp; sourceTree = "<group>"; };
+		3F3CD5744F1BC93739B31769 /* TrackerMultiMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrackerMultiMarker.h; path = ../../include/ARToolKitPlus/TrackerMultiMarker.h; sourceTree = "<group>"; };
+		4623AFB9A564A6FA8A96FEEA /* byteSwap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = byteSwap.h; path = ../../include/ARToolKitPlus/byteSwap.h; sourceTree = "<group>"; };
+		59220A67192BC15D739D1D26 /* CameraFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraFactory.h; path = ../../include/ARToolKitPlus/CameraFactory.h; sourceTree = "<group>"; };
+		60B757C39B7E56A946900535 /* Profiler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Profiler.cpp; path = ../../src/extra/Profiler.cpp; sourceTree = "<group>"; };
+		69D5C7C1AE62D265176C6CD0 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector.h; path = ../../include/ARToolKitPlus/vector.h; sourceTree = "<group>"; };
+		731AC2441B4FB2182289F392 /* rpp_svd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpp_svd.cpp; path = ../../src/librpp/rpp_svd.cpp; sourceTree = "<group>"; };
+		74A941CC985D83F8DE6C56AE /* TrackerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrackerImpl.h; path = ../../include/ARToolKitPlus/TrackerImpl.h; sourceTree = "<group>"; };
+		7D7D5ACBFED814765415BCB1 /* param.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = param.h; path = ../../include/ARToolKitPlus/param.h; sourceTree = "<group>"; };
+		8A4D841E9A543BC13C097F25 /* MemoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MemoryManager.h; path = ../../include/ARToolKitPlus/MemoryManager.h; sourceTree = "<group>"; };
+		8A5B0D746E441F40FC28F077 /* librpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = librpp.cpp; path = ../../src/librpp/librpp.cpp; sourceTree = "<group>"; };
+		8CC10578B1E787FD1C9C1A93 /* ImageGrabber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImageGrabber.h; path = ../../include/ARToolKitPlus/ImageGrabber.h; sourceTree = "<group>"; };
+		8F2B087F5BA842D3D7EFEAD9 /* TrackerMultiMarkerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrackerMultiMarkerImpl.h; path = ../../include/ARToolKitPlus/TrackerMultiMarkerImpl.h; sourceTree = "<group>"; };
+		8F802FC5AB5706D6F8A4A694 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = ../../include/ARToolKitPlus/Camera.h; sourceTree = "<group>"; };
+		92C4B03DB7AA462F626490F0 /* DLL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DLL.cpp; path = ../../src/DLL.cpp; sourceTree = "<group>"; };
+		92D4C127031DAD6DF303A692 /* TrackerSingleMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrackerSingleMarker.h; path = ../../include/ARToolKitPlus/TrackerSingleMarker.h; sourceTree = "<group>"; };
+		9DA26A536F47D08CDDE868C1 /* CameraAdvImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraAdvImpl.h; path = ../../include/ARToolKitPlus/CameraAdvImpl.h; sourceTree = "<group>"; };
+		A5E88B2BEB0434DA865D7773 /* ar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ar.h; path = ../../include/ARToolKitPlus/ar.h; sourceTree = "<group>"; };
+		BB41AD5BEBD347A47F794CA7 /* CameraImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraImpl.h; path = ../../include/ARToolKitPlus/CameraImpl.h; sourceTree = "<group>"; };
+		C147F273977410906E8EF604 /* rpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpp.cpp; path = ../../src/librpp/rpp.cpp; sourceTree = "<group>"; };
+		CFFF4043F9D2D5EDCD2AB80E /* MemoryManagerMemMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MemoryManagerMemMap.h; path = ../../include/ARToolKitPlus/MemoryManagerMemMap.h; sourceTree = "<group>"; };
+		D90AE85B01F0BBA48BDEC54C /* arBitFieldPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arBitFieldPattern.h; path = ../../include/ARToolKitPlus/arBitFieldPattern.h; sourceTree = "<group>"; };
+		E429754BCEC767E4E79834A1 /* ARToolKitPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARToolKitPlus.h; path = ../../include/ARToolKitPlus/ARToolKitPlus.h; sourceTree = "<group>"; };
+		F313118B312F13E5426A2FC6 /* MemoryManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MemoryManager.cpp; path = ../../src/MemoryManager.cpp; sourceTree = "<group>"; };
+		F52A29FC10CFF4EF000FD3B6 /* libARToolKitPlus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libARToolKitPlus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D6192C1119D91700753510 /* libARToolKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libARToolKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F851A04B8FABBD8D5854B4EC /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = ../../include/ARToolKitPlus/Logger.h; sourceTree = "<group>"; };
+		FBC83DA7901E63AA4D87A4F5 /* FixedPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FixedPoint.cpp; path = ../../src/extra/FixedPoint.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D6192A1119D91700753510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0038C0884681BA38A4FFC517 /* ARToolKitPlus */ = {
+			isa = PBXGroup;
+			children = (
+				E429754BCEC767E4E79834A1 /* ARToolKitPlus.h */,
+				8F802FC5AB5706D6F8A4A694 /* Camera.h */,
+				9DA26A536F47D08CDDE868C1 /* CameraAdvImpl.h */,
+				59220A67192BC15D739D1D26 /* CameraFactory.h */,
+				BB41AD5BEBD347A47F794CA7 /* CameraImpl.h */,
+				8CC10578B1E787FD1C9C1A93 /* ImageGrabber.h */,
+				F851A04B8FABBD8D5854B4EC /* Logger.h */,
+				8A4D841E9A543BC13C097F25 /* MemoryManager.h */,
+				CFFF4043F9D2D5EDCD2AB80E /* MemoryManagerMemMap.h */,
+				26025AFE995FF49A962230BA /* Tracker.h */,
+				74A941CC985D83F8DE6C56AE /* TrackerImpl.h */,
+				3F3CD5744F1BC93739B31769 /* TrackerMultiMarker.h */,
+				8F2B087F5BA842D3D7EFEAD9 /* TrackerMultiMarkerImpl.h */,
+				92D4C127031DAD6DF303A692 /* TrackerSingleMarker.h */,
+				2A54C042E17C0B32EBB01261 /* TrackerSingleMarkerImpl.h */,
+				A5E88B2BEB0434DA865D7773 /* ar.h */,
+				D90AE85B01F0BBA48BDEC54C /* arBitFieldPattern.h */,
+				20723F33F75800754DA42FF2 /* arMulti.h */,
+				4623AFB9A564A6FA8A96FEEA /* byteSwap.h */,
+				2E52BF7C504DB2D916D3DF0C /* config.h */,
+				19D39A0239D28D53D88917EB /* matrix.h */,
+				7D7D5ACBFED814765415BCB1 /* param.h */,
+				69D5C7C1AE62D265176C6CD0 /* vector.h */,
+			);
+			name = ARToolKitPlus;
+			sourceTree = "<group>";
+		};
+		05596AB53D8D521C69802C27 /* ARToolKitPlus */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				F52A29FD10CFF4EF000FD3B6 /* Products */,
+			);
+			name = ARToolKitPlus;
+			sourceTree = "<group>";
+		};
+		10C1E84F3F6CFB99801740EE /* librpp */ = {
+			isa = PBXGroup;
+			children = (
+				C147F273977410906E8EF604 /* rpp.cpp */,
+				3E76B8002A51F7D677383BBC /* rpp_quintic.cpp */,
+				0B62AF1FF0BC087A6E9458D1 /* rpp_vecmat.cpp */,
+				731AC2441B4FB2182289F392 /* rpp_svd.cpp */,
+				8A5B0D746E441F40FC28F077 /* librpp.cpp */,
+			);
+			name = librpp;
+			sourceTree = "<group>";
+		};
+		2C625DD7F0D3FBBDD1702AA4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0038C0884681BA38A4FFC517 /* ARToolKitPlus */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		4458B98565818D7E2682FA2D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				2C625DD7F0D3FBBDD1702AA4 /* include */,
+			);
+			name = ..;
+			sourceTree = "<group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4458B98565818D7E2682FA2D /* .. */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		8DE1EA50B75A6E667AFDEA99 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				60B757C39B7E56A946900535 /* Profiler.cpp */,
+				FBC83DA7901E63AA4D87A4F5 /* FixedPoint.cpp */,
+			);
+			name = extra;
+			sourceTree = "<group>";
+		};
+		F52A29FD10CFF4EF000FD3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52A29FC10CFF4EF000FD3B6 /* libARToolKitPlus.dylib */,
+				F5D6192C1119D91700753510 /* libARToolKitPlus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F313118B312F13E5426A2FC6 /* MemoryManager.cpp */,
+				92C4B03DB7AA462F626490F0 /* DLL.cpp */,
+				10C1E84F3F6CFB99801740EE /* librpp */,
+				8DE1EA50B75A6E667AFDEA99 /* extra */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5D619281119D91700753510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B8DB38C49B3700135BA75692 /* libARToolKitPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52A2A0410CFF51F000FD3B6 /* Build configuration list for PBXNativeTarget "libARToolKitPlus" */;
+			buildPhases = (
+				F6069D5A5DA8AA28EDB8B3C6 /* Project Copy */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libARToolKitPlus;
+			productInstallPath = ../../lib/;
+			productName = libARToolKitPlus;
+			productReference = F52A29FC10CFF4EF000FD3B6 /* libARToolKitPlus.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F5D6192B1119D91700753510 /* ARToolKitPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D619411119D97800753510 /* Build configuration list for PBXNativeTarget "ARToolKitPlus" */;
+			buildPhases = (
+				F5D619281119D91700753510 /* Headers */,
+				F5D619291119D91700753510 /* Sources */,
+				F5D6192A1119D91700753510 /* Frameworks */,
+				F5D619531119DB1400753510 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARToolKitPlus;
+			productName = ARToolKitPlus;
+			productReference = F5D6192C1119D91700753510 /* libARToolKitPlus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* ARToolKitPlus */;
+			productRefGroup = F52A29FD10CFF4EF000FD3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = ..;
+			targets = (
+				B8DB38C49B3700135BA75692 /* libARToolKitPlus */,
+				F5D6192B1119D91700753510 /* ARToolKitPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BB4F44150DBF5BD0D7F3D /* MemoryManager.cpp in Build Sources */,
+				DCFAEC1AC24CB4D26E5754E6 /* DLL.cpp in Build Sources */,
+				E8BB46E224DDDF9510F5933C /* rpp.cpp in Build Sources */,
+				EFAF8263F0806A282AFAEB9F /* rpp_quintic.cpp in Build Sources */,
+				A0E29F34FE6850E2BEB3D432 /* rpp_vecmat.cpp in Build Sources */,
+				06D6DAD8CF43C1F86BC5A22B /* rpp_svd.cpp in Build Sources */,
+				DAA40E3CCDFD64FD4B1758A8 /* librpp.cpp in Build Sources */,
+				DF78A98D92AEDB0E2FA106EB /* Profiler.cpp in Build Sources */,
+				79E4B6777233EC342273647F /* FixedPoint.cpp in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D619291119D91700753510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D6192F1119D92E00753510 /* MemoryManager.cpp in Sources */,
+				F5D619301119D92E00753510 /* DLL.cpp in Sources */,
+				F5D619311119D92E00753510 /* rpp.cpp in Sources */,
+				F5D619321119D92E00753510 /* rpp_quintic.cpp in Sources */,
+				F5D619331119D92E00753510 /* rpp_vecmat.cpp in Sources */,
+				F5D619341119D92E00753510 /* rpp_svd.cpp in Sources */,
+				F5D619351119D92E00753510 /* librpp.cpp in Sources */,
+				F5D619361119D92E00753510 /* Profiler.cpp in Sources */,
+				F5D619371119D92E00753510 /* FixedPoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DB1DD96F65B1BF1FFC506E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		95E1EB2E5DDD587BE5B3E548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+			};
+			name = Release;
+		};
+		F52A2A0110CFF4F1000FD3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = ./;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.0.2;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+				);
+				INSTALL_DIR = ../../lib/;
+				INSTALL_PATH = "";
+				LD_DYLIB_INSTALL_NAME = "./$(EXECUTABLE_PATH)";
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = ../build/linux/debug/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-mtune=pentium4",
+					"-march=pentium4",
+					"-msse2",
+					"-msse",
+					"-g",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = libARToolKitPlus;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Debug;
+		};
+		F52A2A0210CFF4F1000FD3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = ./;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.0.2;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = ../../lib/;
+				INSTALL_PATH = "";
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = ../../lib;
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = ../build/linux/debug/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-mtune=pentium4",
+					"-march=pentium4",
+					"-msse2",
+					"-msse",
+					"-g",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-L../../lib",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = libARToolKitPlus;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Release;
+		};
+		F52A2A0310CFF4F1000FD3B6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_ROOT = ../../src;
+				DYLIB_COMPATIBILITY_VERSION = 2.0;
+				DYLIB_CURRENT_VERSION = 2.0.2;
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.6/mkspecs/macx-xcode",
+				);
+				INSTALL_DIR = ../../lib/;
+				INSTALL_PATH = "";
+				LEXFLAGS = "";
+				LIBRARY_SEARCH_PATHS = ../../lib;
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = ../build/linux/debug/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-mtune=pentium4",
+					"-march=pentium4",
+					"-msse2",
+					"-msse",
+					"-g",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-L../../lib",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = libARToolKitPlus;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				YACCFLAGS = "-d";
+			};
+			name = Default;
+		};
+		F5D6192D1119D91700753510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ARToolKitPlus;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		F5D6192E1119D91700753510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					../../include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ARToolKitPlus;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A951308CDB28F104D0A4BD2 /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB1DD96F65B1BF1FFC506E0 /* Debug */,
+				95E1EB2E5DDD587BE5B3E548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52A2A0410CFF51F000FD3B6 /* Build configuration list for PBXNativeTarget "libARToolKitPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52A2A0110CFF4F1000FD3B6 /* Debug */,
+				F52A2A0210CFF4F1000FD3B6 /* Release */,
+				F52A2A0310CFF4F1000FD3B6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F5D619411119D97800753510 /* Build configuration list for PBXNativeTarget "ARToolKitPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D6192D1119D91700753510 /* Debug */,
+				F5D6192E1119D91700753510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}

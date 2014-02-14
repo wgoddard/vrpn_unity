@@ -1,0 +1,5 @@
+Download ARToolKitPlus_2.1.1 from http://studierstube.icg.tu-graz.ac.at/handheld_ar/download/ARToolKitPlus_2.1.1.zip
+Unzipped the contents into a directory named ARToolKitPlus_2.1.1
+To patch ARToolKitPlus_2.1.1 for simple frame markers, image dumps and OSX build do the following:
+1) untar ARToolKitPlus_AEL.tgz in the directory above ARToolKitPlus_2.1.1 (i.e. "tar -xvf ARToolKitPlus_AEL.tgz")
+2) cd into ARToolKitPlus_2.1.1 and execute "patch -p1 -i ael.patch"

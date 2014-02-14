@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58183D51162A31100D5561F /* libARToolKitPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F58183D41162A31100D5561F /* libARToolKitPlus.a */; };
+		F58183D71162A31E00D5561F /* libARToolKitPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F58183D61162A31E00D5561F /* libARToolKitPlus.a */; };
+		F5891BF11136D21E000EC412 /* ARToolkitPlusPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52A2BC010D03218000FD3B6 /* ARToolkitPlusPlugin.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F52A2BC010D03218000FD3B6 /* ARToolkitPlusPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ARToolkitPlusPlugin.cpp; path = ../ARToolkitPlusPlugin.cpp; sourceTree = SOURCE_ROOT; };
+		F58183D41162A31100D5561F /* libARToolKitPlus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARToolKitPlus.a; path = "../../ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos/libARToolKitPlus.a"; sourceTree = SOURCE_ROOT; };
+		F58183D61162A31E00D5561F /* libARToolKitPlus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARToolKitPlus.a; path = "../../ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos/libARToolKitPlus.a"; sourceTree = SOURCE_ROOT; };
+		F5891BED1136D1A3000EC412 /* libTrackerWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTrackerWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5891BEB1136D1A3000EC412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58183D51162A31100D5561F /* libARToolKitPlus.a in Frameworks */,
+				F58183D71162A31E00D5561F /* libARToolKitPlus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* TrackerWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = TrackerWrapper;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F58183D61162A31E00D5561F /* libARToolKitPlus.a */,
+				F58183D41162A31100D5561F /* libARToolKitPlus.a */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F52A2BC010D03218000FD3B6 /* ARToolkitPlusPlugin.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5891BED1136D1A3000EC412 /* libTrackerWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5891BE91136D1A3000EC412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F5891BEC1136D1A3000EC412 /* TrackerWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5891BF01136D1F1000EC412 /* Build configuration list for PBXNativeTarget "TrackerWrapper" */;
+			buildPhases = (
+				F5891BE91136D1A3000EC412 /* Headers */,
+				F5891BEA1136D1A3000EC412 /* Sources */,
+				F5891BEB1136D1A3000EC412 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackerWrapper;
+			productName = TrackerWrapper;
+			productReference = F5891BED1136D1A3000EC412 /* libTrackerWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "ARToolkitPlusPlugin" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* TrackerWrapper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5891BEC1136D1A3000EC412 /* TrackerWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5891BEA1136D1A3000EC412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5891BF11136D21E000EC412 /* ARToolkitPlusPlugin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FADC23808B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../ARToolKitPlus_2.1.1/include;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		4FADC23908B4156C00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../ARToolKitPlus_2.1.1/include;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		F5891BEE1136D1A4000EC412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "../../ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Debug-iphoneos";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TrackerWrapper;
+				SDKROOT = iphoneos4.2;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5891BEF1136D1A4000EC412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "../../ARToolKitPlus_2.1.1/build/XCode.iPhone/build/Release-iphoneos";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TrackerWrapper;
+				SDKROOT = iphoneos4.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "ARToolkitPlusPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23808B4156C00ABE55E /* Debug */,
+				4FADC23908B4156C00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5891BF01136D1F1000EC412 /* Build configuration list for PBXNativeTarget "TrackerWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5891BEE1136D1A4000EC412 /* Debug */,
+				F5891BEF1136D1A4000EC412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

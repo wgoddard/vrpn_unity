@@ -1,0 +1,11 @@
+*.ncb
+*.sdf
+/Plugins/VRPNPlugin/Win32/build
+/Plugins/VRPNPlugin/Win32/Release
+/Projects/VRPNWrapper/Temp
+/Projects/VRPNWrapper/Library
+/Projects/VRPNWrapper/obj
+/Plugins/VRPNPlugin/Win32/VRPNPlugin.opensdf
+*.opensdf
+.DS_Store
+*.pdb

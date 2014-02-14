@@ -1,0 +1,472 @@
+diff -cbw ARToolKitPlus_2.1.1/include/ARToolKitPlus/ARToolKitPlus.h ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/ARToolKitPlus.h
+*** ARToolKitPlus_2.1.1/include/ARToolKitPlus/ARToolKitPlus.h	2006-05-18 20:00:58.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/ARToolKitPlus.h	2010-01-28 10:42:12.000000000 -0500
+***************
+*** 110,115 ****
+--- 110,116 ----
+  enum MARKER_MODE {
+  	MARKER_TEMPLATE,
+  	MARKER_ID_SIMPLE,
++ 	MARKER_ID_FRAME_SIMPLE,
+  	MARKER_ID_BCH,
+  	//MARKER_ID_BCH2		// upcomming, not implemented yet
+  };
+diff -cbw ARToolKitPlus_2.1.1/include/ARToolKitPlus/Tracker.h ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/Tracker.h
+*** ARToolKitPlus_2.1.1/include/ARToolKitPlus/Tracker.h	2006-07-25 17:05:46.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/Tracker.h	2010-01-28 12:50:19.000000000 -0500
+***************
+*** 294,299 ****
+--- 294,301 ----
+  
+  	/// Calls the pose estimator set with setPoseEstimator() for multi marker tracking
+  	virtual ARFloat executeMultiMarkerPoseEstimator(ARMarkerInfo *marker_info, int marker_num, ARMultiMarkerInfoT *config) = 0;
++ 
++ 	virtual void setDumpData(bool nSet) = 0;
+  };
+  
+  
+diff -cbw ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerImpl.h ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/TrackerImpl.h
+*** ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerImpl.h	2006-07-25 17:05:46.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/TrackerImpl.h	2010-01-28 12:48:10.000000000 -0500
+***************
+*** 312,317 ****
+--- 312,318 ----
+  	virtual ARFloat executeMultiMarkerPoseEstimator(ARMarkerInfo *marker_info, int marker_num, ARMultiMarkerInfoT *config);
+  
+  
++ 	virtual void setDumpData(bool nSet) { dumpData = nSet; };
+  
+  protected:
+  	bool checkPixelFormat();
+***************
+*** 351,356 ****
+--- 352,359 ----
+  
+  	int bitfield_check_simple(ARUint8 *data, int *code, int *dir, ARFloat *cf, int thresh);
+  
++ 	int bitfield_check_framesimple(ARUint8 *data, int *code, int *dir, ARFloat *cf, int thresh);
++ 
+  	int bitfield_check_BCH(ARUint8 *data, int *code, int *dir, ARFloat *cf, int thresh);
+  
+  	void gen_evec(void);
+***************
+*** 650,655 ****
+--- 652,658 ----
+  
+  	BCH						*bchProcessor;
+  	Profiler				profiler;
++ 	bool					dumpData;
+  };
+  
+  
+diff -cbw ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerMultiMarkerImpl.h ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/TrackerMultiMarkerImpl.h
+*** ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerMultiMarkerImpl.h	2006-07-25 17:05:46.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/TrackerMultiMarkerImpl.h	2010-01-28 13:04:18.000000000 -0500
+***************
+*** 169,174 ****
+--- 169,175 ----
+  
+  	static size_t getMemoryRequirements();
+  
++ 	void setDumpData(bool nSet) { AR_TEMPL_TRACKER::setDumpData(nSet); }
+  protected:
+  	int				numDetected;
+  	bool			useDetectLite;
+diff -cbw ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarkerImpl.h ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/TrackerSingleMarkerImpl.h
+*** ARToolKitPlus_2.1.1/include/ARToolKitPlus/TrackerSingleMarkerImpl.h	2006-07-25 17:05:46.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/include/ARToolKitPlus/TrackerSingleMarkerImpl.h	2010-01-28 12:35:59.000000000 -0500
+***************
+*** 167,172 ****
+--- 167,174 ----
+  	static void operator delete(void *rawMemory);
+  
+  	static size_t getMemoryRequirements();
++ 	void setDumpData(bool nSet) { AR_TEMPL_TRACKER::setDumpData(nSet); }
++ 	
+  
+  protected:
+  	ARFloat		confidence;
+diff -cbw ARToolKitPlus_2.1.1/src/MemoryManager.cpp ARToolKitPlus_2.1.1_ael/src/MemoryManager.cpp
+*** ARToolKitPlus_2.1.1/src/MemoryManager.cpp	2006-05-02 14:29:10.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/src/MemoryManager.cpp	2009-12-09 10:18:13.000000000 -0500
+***************
+*** 39,45 ****
+--- 39,49 ----
+  
+  
+  #include <ARToolKitPlus/MemoryManager.h>
++ #if __STDC__
++ #include <stdlib.h>
++ #else
+  #include <malloc.h>
++ #endif
+  
+  
+  namespace ARToolKitPlus
+diff -cbw ARToolKitPlus_2.1.1/src/core/arBitFieldPattern.cxx ARToolKitPlus_2.1.1_ael/src/core/arBitFieldPattern.cxx
+*** ARToolKitPlus_2.1.1/src/core/arBitFieldPattern.cxx	2006-04-20 00:28:10.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/src/core/arBitFieldPattern.cxx	2010-01-28 13:27:10.000000000 -0500
+***************
+*** 101,106 ****
+--- 101,117 ----
+  
+  
++//
++// derived from code example at http://en.wikipedia.org/wiki/Circular_shift
++//
++static void
++rotateLeft9(IDPATTERN& nPattern)
++{
++	IDPATTERN tmpPat = nPattern;
++	nPattern = (tmpPat << 9) | (tmpPat >> 27);
++}
++ 
++ 
+  static void
+  generatePatternSimple(int nID, IDPATTERN& nPattern)
+  {
+  	IDPATTERN tmpPat = nID & idMask;
+***************
+*** 337,342 ****
+--- 348,388 ----
+  */
+  	}
+  	else
++ 	if(PATTERN_WIDTH==20 && PATTERN_HEIGHT==20)
++ 	{
++ 		// this code converts the outer 36 bits to a
++ 		// 6x6 greyscale image
++ 		// ASH
++ 		//
++ 		int count=0;
++ 		for(int idx=3; idx<(PATTERN_WIDTH-1)*3; idx+=6)
++ 		{
++ 			*imgPtr++ = (data[idx+0]+(data[idx+1]<<1)+data[idx+2])>>2;
++ 			count++;
++ 		}
++ 		for(int idy=6; idy<(PATTERN_HEIGHT-1)*3; idy+=6)
++ 		{
++ 			*imgPtr++ = (data[idy*PATTERN_WIDTH-3]+(data[idy*PATTERN_WIDTH-2]<<1)+data[idy*PATTERN_WIDTH-1])>>2;
++ 			count++;
++ 		}
++ 		for(int idx=PATTERN_WIDTH*(PATTERN_HEIGHT)*3-6; idx>PATTERN_WIDTH*(PATTERN_HEIGHT-1)*3; idx-=6)
++ 		{
++ 			*imgPtr++ = (data[idx]+(data[idx+1]<<1)+data[idx+2])>>2;
++ 			count++;
++ 		}
++ 		for(int idy=(PATTERN_HEIGHT-2)*3; idy>3; idy-=6)
++ 		{
++ 			*imgPtr++ = (data[idy*PATTERN_WIDTH+0]+(data[idy*PATTERN_WIDTH+1]<<1)+data[idy*PATTERN_WIDTH+2])>>2;
++ 			count++;
++ 		}
++ 		
++ /*
++ 	FILE* fp = fopen("dump20x20.raw", "wb");
++ 	fwrite(data, PATTERN_HEIGHT*PATTERN_WIDTH, 1, fp);
++ 	fclose(fp);
++ */
++ 	}
++ 	else
+  	{
+  		// the pattern size has to be 18x18, 12x12 or 6x6
+  		// for performance reasons generic downsampling is not supported
+***************
+*** 435,440 ****
+--- 481,595 ----
+  		assert(false);
+  	}
+  	
++ 	if (dumpData)
++ 	{
++ 		char patternName[64];
++ 		sprintf(patternName, "simpleid_patt_%d.pgm", *code);
++ 		FILE* fp = fopen(patternName, "wb");
++ 		fprintf(fp, "P5\n# Created by ARToolKitPlus\n%d %d\n255\n",PATTERN_WIDTH,PATTERN_HEIGHT);
++ 		fwrite(imgPtr, 1, PATTERN_WIDTH*PATTERN_WIDTH, fp);
++ 		fclose(fp);
++ 	}	
++ 	
++ 	return 0;
++ }
++ 
++ 
++ AR_TEMPL_FUNC int
++ AR_TEMPL_TRACKER::bitfield_check_framesimple( ARUint8 *data, int *code, int *dir, ARFloat *cf, int thresh)
++ {
++ 	assert(sizeof(IDPATTERN)>=8 && "IDPATTERN must be at least 64-bit integer");
++ 	
++ 	unsigned char patimg[idPattWidth*idPattHeight], *imgPtr=patimg;
++ 	int i;
++ 
++ 	// first step is to reduce the pattern to 6x6. only the following
++ 	// three resolutions are supported:
++ 	//   - 18x18 (downsampling of each 3x3 cell)
++ 	//   - 12x12 (downsampling of each 2x2 cell)
++ 	//   -  6x6  (no downsampling)
++ 	//
++ 	if(downsamplePattern(data, imgPtr)==-1)
++ 	{
++ 		*code = 0;
++ 		*dir = 0;
++ 		*cf = -1.0f;
++ 		return -1;
++ 	}
++ 
++ 	// now we do a thresholding and create the IDPATTERN bitfield
++ 	//
++ 	IDPATTERN pat=0, one=1;
++ 	
++ 	for(i=0; i<pattBits; i++)
++ 		if(patimg[pattBits-1-i]>thresh)
++ 			pat |= one<<i;
++ 
++ 
++ 	// finally we check all four rotations and take the best one
++ 	// if it is good enough
++ 	//
++ 	IDPATTERN	pat0, pat90, pat180, pat270;
++ 	int			id0=-1,id90=-1,id180=-1,id270=-1;
++ 	float		prop0=0.0f,prop90=0.0f,prop180=0.0f,prop270=0.0f;
++ 
++ 	pat0 = pat;
++ 	checkPatternSimple(pat0, id0, prop0);
++ 
++ 	pat270 = pat0;
++ 	rotateLeft9(pat270);
++ 	checkPatternSimple(pat270, id270, prop270);
++ 
++ 	pat180 = pat270;
++ 	rotateLeft9(pat180);
++ 	checkPatternSimple(pat180, id180, prop180);
++ 
++ 	pat90 = pat180;
++ 	rotateLeft9(pat90);
++ 	checkPatternSimple(pat90, id90, prop90);
++ 
++ 	if(prop0>=prop90 && prop0>=prop180 && prop0>=prop270)		// is prop0 maximum?
++ 	{
++ 		*dir = 0;
++ 		*cf = prop0;
++ 		*code = id0;
++ 	}
++ 	else
++ 	if(prop90>=prop0 && prop90>=prop180 && prop90>=prop270)		// is prop90 maximum?
++ 	{
++ 		*dir = 1;
++ 		*cf = prop90;
++ 		*code = id90;
++ 	}
++ 	else
++ 	if(prop180>=prop0 && prop180>=prop90 && prop180>=prop270)	// is prop180 maximum?
++ 	{
++ 		*dir = 2;
++ 		*cf = prop180;
++ 		*code = id180;
++ 	}
++ 	else
++ 	if(prop270>=prop0 && prop270>=prop90 && prop270>=prop180)	// is prop270 maximum?
++ 	{
++ 		*dir = 3;
++ 		*cf = prop270;
++ 		*code = id270;
++ 	}
++ 	else
++ 	{
++ 		assert(false);
++ 	}
++ 	
++ 	if (dumpData)
++ 	{
++ 		char patternName[64];
++ 		sprintf(patternName, "framesimpleid_patt_%d.pgm", *code);
++ 		FILE* fp = fopen(patternName, "wb");
++ 		fprintf(fp, "P5\n# Created by ARToolKitPlus\n%d %d\n255\n",PATTERN_WIDTH,PATTERN_HEIGHT);
++ 		fwrite(imgPtr, 1, PATTERN_WIDTH*PATTERN_WIDTH, fp);
++ 		fclose(fp);
++ 	}
++ 	
+  	return 0;
+  }
+  
+***************
+*** 529,534 ****
+--- 684,699 ----
+  		assert(false);
+  	}
+  	
++ 	if (dumpData)
++ 	{
++ 		char patternName[64];
++ 		sprintf(patternName, "bch_patt_%d.pgm", *code);
++ 		FILE* fp = fopen(patternName, "wb");
++ 		fprintf(fp, "P5\n# Created by ARToolKitPlus\n%d %d\n255\n",PATTERN_WIDTH,PATTERN_HEIGHT);
++ 		fwrite(imgPtr, 1, PATTERN_WIDTH*PATTERN_WIDTH, fp);
++ 		fclose(fp);
++ 	}	
++ 	
+  	return 0;
+  }
+  
+diff -cbw ARToolKitPlus_2.1.1/src/core/arDetectMarker2.cxx ARToolKitPlus_2.1.1_ael/src/core/arDetectMarker2.cxx
+*** ARToolKitPlus_2.1.1/src/core/arDetectMarker2.cxx	2006-04-20 00:28:10.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/src/core/arDetectMarker2.cxx	2010-01-28 10:51:34.000000000 -0500
+***************
+*** 91,96 ****
+--- 91,117 ----
+  			break;
+      }
+  
++ 	if (dumpData)
++ 	{
++ 		FILE* fp = fopen("threshold.pgm", "wb");
++ 		fprintf(fp, "P5\n# Created by ARToolKitPlus\n%d %d\n255\n",xsize,ysize);
++ 		unsigned char data[xsize*ysize];
++ 		memset(data,0,xsize*ysize);
++ 		for (int i=0;i<xsize*ysize;i++)
++ 			if (limage[i] > 0)
++ 				data[i] = 255;
++ 		fwrite(data, 1, xsize*ysize, fp);
++ 		fclose(fp);
++ 		fp = fopen("contour.pgm", "wb");
++ 		fprintf(fp, "P5\n# Created by ARToolKitPlus\n%d %d\n255\n",xsize,ysize);
++ 		memset(data,0,xsize*ysize);
++ 		for(int i=0; i<marker_num2; i++ )
++ 			for (j=0; j<marker_infoTWO[i].coord_num; j++)
++ 				data[marker_infoTWO[i].y_coord[j]*xsize+marker_infoTWO[i].x_coord[j]] = 255;
++ 		fwrite(data, 1, xsize*ysize, fp);
++ 		fclose(fp);
++ 	}
++ 	
+      for( i=0; i < marker_num2; i++ ) {
+          for( j=i+1; j < marker_num2; j++ ) {
+              d = (marker_infoTWO[i].pos[0] - marker_infoTWO[j].pos[0])
+diff -cbw ARToolKitPlus_2.1.1/src/core/arGetCode.cxx ARToolKitPlus_2.1.1_ael/src/core/arGetCode.cxx
+*** ARToolKitPlus_2.1.1/src/core/arGetCode.cxx	2006-04-20 00:28:10.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael/src/core/arGetCode.cxx	2010-01-27 14:26:36.000000000 -0500
+***************
+*** 195,200 ****
+--- 195,204 ----
+  		bitfield_check_simple((ARUint8 *)ext_pat, code, dir, cf, thresh);
+  		break;
+  
++ 	case MARKER_ID_FRAME_SIMPLE:
++ 		bitfield_check_framesimple((ARUint8 *)ext_pat, code, dir, cf, thresh);
++ 		break;
++ 
+  	case MARKER_ID_BCH:
+  		bitfield_check_BCH((ARUint8 *)ext_pat, code, dir, cf, thresh);
+  		break;
+*** ARToolKitPlus_2.1.1/sample/simple/src/main.cpp	2006-07-25 17:05:46.000000000 -0400
+--- ARToolKitPlus_2.1.1_ael_back/sample/simple/src/main.cpp	2010-01-29 18:33:16.000000000 -0500
+***************
+*** 49,54 ****
+--- 49,55 ----
+  
+  class MyLogger : public ARToolKitPlus::Logger
+  {
++ public:
+      void artLog(const char* nStr)
+      {
+          printf(nStr);
+***************
+*** 67,75 ****
+      size_t        numPixels = width*height*bpp;
+      size_t        numBytesRead;
+      const char    *fName = useBCH ? "data/image_320_240_8_marker_id_bch_nr0100.raw" :
+!                                       "data/image_320_240_8_marker_id_simple_nr031.raw";
+      unsigned char *cameraBuffer = new unsigned char[numPixels];
+!     MyLogger      logger;
+  
+      // try to load a test camera image.
+      // these images files are expected to be simple 8-bit raw pixel
+--- 68,77 ----
+      size_t        numPixels = width*height*bpp;
+      size_t        numBytesRead;
+      const char    *fName = useBCH ? "data/image_320_240_8_marker_id_bch_nr0100.raw" :
+!                                       //"data/image_320_240_8_marker_id_simple_nr031.raw";
+!                                       "data/image_320_240_8_marker_id_frame_simple_nr031.raw";
+      unsigned char *cameraBuffer = new unsigned char[numPixels];
+!     static MyLogger      logger;
+  
+      // try to load a test camera image.
+      // these images files are expected to be simple 8-bit raw pixel
+***************
+*** 101,107 ****
+      //  - works with luminance (gray) images
+      //  - can load a maximum of 1 pattern
+      //  - can detect a maximum of 8 patterns in one image
+!     ARToolKitPlus::TrackerSingleMarker *tracker = new ARToolKitPlus::TrackerSingleMarkerImpl<6,6,6, 1, 8>(width,height);
+  
+  	const char* description = tracker->getDescription();
+  	printf("ARToolKitPlus compile-time information:\n%s\n\n", description);
+--- 103,109 ----
+      //  - works with luminance (gray) images
+      //  - can load a maximum of 1 pattern
+      //  - can detect a maximum of 8 patterns in one image
+!     ARToolKitPlus::TrackerSingleMarker *tracker = new ARToolKitPlus::TrackerSingleMarkerImpl<20,20,20, 1, 8>(width,height);
+  
+  	const char* description = tracker->getDescription();
+  	printf("ARToolKitPlus compile-time information:\n%s\n\n", description);
+***************
+*** 115,122 ****
+      // load a camera file. two types of camera files are supported:
+      //  - Std. ARToolKit
+      //  - MATLAB Camera Calibration Toolbox
+!     if(!tracker->init("data/LogitechPro4000.dat", 1.0f, 1000.0f))            // load std. ARToolKit camera file
+!     //if(!tracker->init("data/PGR_M12x0.5_2.5mm.cal", 1.0f, 1000.0f))        // load MATLAB file
+  	{
+  		printf("ERROR: init() failed\n");
+  		delete cameraBuffer;
+--- 117,124 ----
+      // load a camera file. two types of camera files are supported:
+      //  - Std. ARToolKit
+      //  - MATLAB Camera Calibration Toolbox
+!     //if(!tracker->init("data/LogitechPro4000.dat", 1.0f, 1000.0f))            // load std. ARToolKit camera file
+!     if(!tracker->init("data/PGR_M12x0.5_2.5mm.cal", 1.0f, 1000.0f))        // load MATLAB file
+  	{
+  		printf("ERROR: init() failed\n");
+  		delete cameraBuffer;
+***************
+*** 128,137 ****
+      tracker->setPatternWidth(80);
+  
+  	// the marker in the BCH test image has a thin border...
+!     tracker->setBorderWidth(useBCH ? 0.125f : 0.250f);
+  
+      // set a threshold. alternatively we could also activate automatic thresholding
+!     tracker->setThreshold(150);
+  
+      // let's use lookup-table undistortion for high-speed
+      // note: LUT only works with images up to 1024x1024
+--- 130,141 ----
+      tracker->setPatternWidth(80);
+  
+  	// the marker in the BCH test image has a thin border...
+!     //tracker->setBorderWidth(useBCH ? 0.125f : 0.250f);
+!     tracker->setBorderWidth(useBCH ? 0.125f : 0.04545f);
+  
+      // set a threshold. alternatively we could also activate automatic thresholding
+!     //tracker->setThreshold(150);
+!     tracker->activateAutoThreshold(true);
+  
+      // let's use lookup-table undistortion for high-speed
+      // note: LUT only works with images up to 1024x1024
+***************
+*** 142,149 ****
+  
+      // switch to simple ID based markers
+      // use the tool in tools/IdPatGen to generate markers
+!     tracker->setMarkerMode(useBCH ? ARToolKitPlus::MARKER_ID_BCH : ARToolKitPlus::MARKER_ID_SIMPLE);
+! 
+  
+      // do the OpenGL camera setup
+      //glMatrixMode(GL_PROJECTION)
+--- 146,153 ----
+  
+      // switch to simple ID based markers
+      // use the tool in tools/IdPatGen to generate markers
+!     tracker->setMarkerMode(useBCH ? ARToolKitPlus::MARKER_ID_BCH : ARToolKitPlus::MARKER_ID_FRAME_SIMPLE);
+!     tracker->setDumpData(true);
+  
+      // do the OpenGL camera setup
+      //glMatrixMode(GL_PROJECTION)

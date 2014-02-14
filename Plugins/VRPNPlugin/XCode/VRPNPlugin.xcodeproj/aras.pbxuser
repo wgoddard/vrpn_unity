@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 8D57630D048677EA00EA77CD /* Unity Texture Plugin */;
+		codeSenseManager = 2B4091410DD9B0F90086358C /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 232460510;
+			PBXWorkspaceStateSaveDate = 232460510;
+		};
+		sourceControlManager = 2B4091400DD9B0F90086358C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 709}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRect = "{{0, 0}, {990, 709}}";
+			sepNavWindowFrame = "{{111, 17}, {1029, 814}}";
+		};
+	};
+	2B4091400DD9B0F90086358C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	2B4091410DD9B0F90086358C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D57630D048677EA00EA77CD /* Unity Texture Plugin */ = {
+		activeExec = 0;
+	};
+	8D576317048677EA00EA77CD /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 709}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRect = "{{0, 0}, {990, 709}}";
+			sepNavWindowFrame = "{{88, 38}, {1029, 814}}";
+		};
+	};
+	D8AF4AA1088DEE1600E41920 /* Texture.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 709}}";
+			sepNavSelRange = "{1429, 0}";
+			sepNavVisRect = "{{0, 0}, {990, 709}}";
+			sepNavWindowFrame = "{{178, 56}, {1029, 814}}";
+		};
+	};
+}

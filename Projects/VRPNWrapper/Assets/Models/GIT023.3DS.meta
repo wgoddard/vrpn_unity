@@ -1,0 +1,127 @@
+fileFormatVersion: 1
+guid: 5e4e1dec19193432c8a6e003d1860121
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 1
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 0
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    GIT023_ATO:
+    - 100002
+    - 400002
+    - 3300000
+    - 2300000
+    GIT023_CO0:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+    GIT023_CO1:
+    - 100006
+    - 400006
+    - 3300004
+    - 2300004
+    GIT023_COA:
+    - 100008
+    - 400008
+    - 3300006
+    - 2300006
+    GIT023_COC:
+    - 100010
+    - 400010
+    - 3300008
+    - 2300008
+    GIT023_Che:
+    - 100012
+    - 400012
+    - 3300010
+    - 2300010
+    GIT023_DTD:
+    - 100014
+    - 400014
+    - 3300012
+    - 2300012
+    GIT023_Kla:
+    - 100016
+    - 400016
+    - 3300014
+    - 2300014
+    GIT023_MIR:
+    - 100018
+    - 400018
+    - 3300016
+    - 2300016
+    GIT023_PKA:
+    - 100020
+    - 400020
+    - 3300018
+    - 2300018
+    GIT023_PKP:
+    - 100022
+    - 400022
+    - 3300020
+    - 2300020
+    GIT023_PhK:
+    - 100024
+    - 400024
+    - 3300022
+    - 2300022
+    GIT023_PhM:
+    - 100026
+    - 400026
+    - 3300024
+    - 2300024
+    GIT023_SAE:
+    - 100028
+    - 400028
+    - 3300026
+    - 2300026
+    GIT023_Ter:
+    - 100030
+    - 400030
+    - 3300028
+    - 2300028
+    GIT023_Van:
+    - 100032
+    - 400032
+    - 3300030
+    - 2300030
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: GIT023_Che
+    4300002: GIT023_COA
+    4300004: GIT023_DTD
+    4300006: GIT023_Kla
+    4300008: GIT023_PhK
+    4300010: GIT023_PKA
+    4300012: GIT023_PKP
+    4300014: GIT023_SAE
+    4300016: GIT023_Van
+    4300018: GIT023_ATO
+    4300020: GIT023_MIR
+    4300022: GIT023_COC
+    4300024: GIT023_PhM
+    4300026: GIT023_CO0
+    4300028: GIT023_CO1
+    4300030: GIT023_Ter
