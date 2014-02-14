@@ -66,9 +66,9 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>vrpn.lib;quat.lib;smft31.lib;smftcpp.lib;pthreadVC2.lib;SharedMem.lib;gpsparser.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pthreadVC2.lib;SharedMem.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
-      <AdditionalLibraryDirectories>..\..\vrpn\debug\;..\..\quat\pc_win32\Debug\;..\..\vrpn\pc_win32\Debug\;..\..\vrpn\pc_win32\server_src\vrpn_server\Debug\;..\..\vrpn\gpsparser\Debug;$(SYSTEMDRIVE)\Program Files\MotionNode\sdk\cpp\build\Debug;$(SYSTEMDRIVE)\Program Files\boost\boost_1_34_1\lib;$(VIDEOWRAPPER)\lib;$(SM_API_PATH)\bin;$(SM_API_PATH)\..\Wrappers\C++\lib;$(SYSTEMDRIVE)\pthread\Pre-built.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\pthreads\lib\x86\;..\..\vrpn\debug\;..\..\quat\pc_win32\Debug\;..\..\vrpn\pc_win32\Debug\;..\..\vrpn\pc_win32\server_src\vrpn_server\Debug\;..\..\vrpn\gpsparser\Debug;$(SYSTEMDRIVE)\Program Files\MotionNode\sdk\cpp\build\Debug;$(SYSTEMDRIVE)\Program Files\boost\boost_1_34_1\lib;$(VIDEOWRAPPER)\lib;$(SM_API_PATH)\bin;$(SM_API_PATH)\..\Wrappers\C++\lib;$(SYSTEMDRIVE)\pthread\Pre-built.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>libcmtd.lib;libcpmtd.lib;msvcprt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
